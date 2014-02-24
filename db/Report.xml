@@ -2,124 +2,124 @@
 <QuizOnline>
     <!-- Reports -->
 		<reports>
-		<report reportID="R01" quizID="Q01" userID="U01">
+		<report questionID=" quizID="01" userID="01">
 			<result>8</result>
 		</report>
-		<report reportID="R02" quizID="Q01" userID="U12">
+		<report reportID="02" quizID="01" userID="12">
 			<result>9</result>
 		</report>
-		<report reportID="R03" quizID="Q01" userID="U10">
+		<report reportID="03" quizID="01" userID="10">
 			<result>4</result>
 		</report>
-		<report reportID="R04" quizID="Q01" userID="U09">
+		<report reportID="04" quizID="01" userID="09">
 			<result>9</result>
 		</report>
-		<report reportID="R05" quizID="Q02" userID="U02">
+		<report reportID="05" quizID="02" userID="02">
 			<result>10</result>
 		</report>
-		<report reportID="R06" quizID="Q02" userID="U03">
+		<report reportID="06" quizID="02" userID="03">
 			<result>9</result>
 		</report>
-		<report reportID="R07" quizID="Q02" userID="U04">
+		<report reportID="07" quizID="02" userID="04">
 			<result>9</result>
 		</report>
-		<report reportID="R08" quizID="Q03" userID="U05">
+		<report reportID="08" quizID="03" userID="05">
 			<result>4</result>
 		</report>
-		<report reportID="R09" quizID="Q03" userID="U06">
+		<report reportID="09" quizID="03" userID="06">
 			<result>6</result>
 		</report>
-		<report reportID="R10" quizID="Q04" userID="U07">
+		<report reportID="10" quizID="04" userID="07">
 			<result>10</result>
 		</report>
-		<report reportID="R11" quizID="Q04" userID="U12">
+		<report reportID="11" quizID="04" userID="12">
 			<result>10</result>
 		</report>
-		<report reportID="R12" quizID="Q05" userID="U14">
+		<report reportID="12" quizID="05" userID="14">
 			<result>6</result>
 		</report>
-		<report reportID="R13" quizID="Q05" userID="U16">
+		<report reportID="13" quizID="05" userID="16">
 			<result>4</result>
 		</report>
-		<report reportID="R14" quizID="Q05" userID="U17">
+		<report reportID="14" quizID="05" userID="17">
 			<result>8</result>
 		</report>
-		<report reportID="R15" quizID="Q05" userID="U18">
+		<report reportID="15" quizID="05" userID="18">
 			<result>6</result>
 		</report>
-		<report reportID="R16" quizID="Q06" userID="U20">
+		<report reportID="16" quizID="06" userID="20">
 			<result>9</result>
 		</report>
-		<report reportID="R17" quizID="Q06" userID="U07">
+		<report reportID="17" quizID="06" userID="07">
 			<result>8</result>
 		</report>
-		<report reportID="R18" quizID="Q06" userID="U08">
+		<report reportID="18" quizID="06" userID="08">
 			<result>4</result>
 		</report>
-		<report reportID="R19" quizID="Q07" userID="U13">
+		<report reportID="19" quizID="07" userID="13">
 			<result>4</result>
 		</report>
-		<report reportID="R20" quizID="Q07" userID="U14">
+		<report reportID="20" quizID="07" userID="14">
 			<result>6</result>
 		</report>
-		<report reportID="R21" quizID="Q07" userID="U17">
+		<report reportID="21" quizID="07" userID="17">
 			<result>10</result>
 		</report>
-		<report reportID="R22" quizID="Q08" userID="U03">
+		<report reportID="22" quizID="08" userID="03">
 			<result>9</result>
 		</report>
-		<report reportID="R23" quizID="Q08" userID="U04">
+		<report reportID="23" quizID="08" userID="04">
 			<result>5</result>
 		</report>
-		<report reportID="R24" quizID="Q08" userID="U05">
+		<report reportID="24" quizID="08" userID="05">
 			<result>8</result>
 		</report>
-		<report reportID="R25" quizID="Q08" userID="U11">
+		<report reportID="25" quizID="08" userID="11">
 			<result>6</result>
 		</report>
-		<report reportID="R26" quizID="Q09" userID="U10">
+		<report reportID="26" quizID="09" userID="10">
 			<result>6</result>
 		</report>
-		<report reportID="R27" quizID="Q09" userID="U12">
+		<report reportID="27" quizID="09" userID="12">
 			<result>9</result>
 		</report>
-		<report reportID="R28" quizID="Q09" userID="U02">
+		<report reportID="28" quizID="09" userID="02">
 			<result>5</result>
 		</report>
-		<report reportID="R29" quizID="Q09" userID="U01">
+		<report reportID="29" quizID="09" userID="01">
 			<result>10</result>
 		</report>
-		<report reportID="R30" quizID="Q10" userID="U04">
+		<report reportID="30" quizID="10" userID="04">
 			<result>7</result>
 		</report>
-		<report reportID="R31" quizID="Q11" userID="U05">
+		<report reportID="31" quizID="11" userID="05">
 			<result>4</result>
 		</report>
-		<report reportID="R32" quizID="Q11" userID="U06">
+		<report reportID="32" quizID="11" userID="06">
 			<result>9</result>
 		</report>
-		<report reportID="R33" quizID="Q12" userID="U08">
+		<report reportID="33" quizID="12" userID="08">
 			<result>7</result>
 		</report>
-		<report reportID="R34" quizID="Q12" userID="U09">
+		<report reportID="34" quizID="12" userID="09">
 			<result>4</result>
 		</report>
-		<report reportID="R35" quizID="Q13" userID="U11">
+		<report reportID="35" quizID="13" userID="11">
 			<result>10</result>
 		</report>
-		<report reportID="R36" quizID="Q13" userID="U14">
+		<report reportID="36" quizID="13" userID="14">
 			<result>5</result>
 		</report>
-		<report reportID="R37" quizID="Q14" userID="U18">
+		<report reportID="37" quizID="14" userID="18">
 			<result>8</result>
 		</report>
-		<report reportID="R38" quizID="Q14" userID="U19">
+		<report reportID="38" quizID="14" userID="19">
 			<result>10</result>
 		</report>
-		<report reportID="R39" quizID="Q14" userID="U20">
+		<report reportID="39" quizID="14" userID="20">
 			<result>4</result>
 		</report>
-		<report reportID="R40" quizID="Q14" userID="U01">
+		<report reportID="40" quizID="14" userID="01">
 			<result>7</result>
 		</report>
     </reports>

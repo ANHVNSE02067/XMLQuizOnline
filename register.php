@@ -3,29 +3,41 @@
 require 'global.php';
 if (isset($_POST['register'])) {
     try {
-        $username = trim(Request::get('username', null));
-        $password = trim(Request::get('password', null));
         $email = trim(Request::get('email', null));
-        if (strlen($username) < 5 || strlen($username) > 32) {
-            throw new Exception('Username must be from 5 to 32 characters!');
+        $password = trim(Request::get('password', null));
+        $fullname = trim(Request::get('fullname', null));
+
+        if(empty($email)){
+            throw new Exception('Email cannot be blank');
         }
 
+        if(empty($password)){
+            throw new Exception('Password cannot be blank');
+        }
+
+        if(empty($fullname)){
+            throw new Exception('Fullname cannot be blank');
+        }
+
+        // Load UserModel
+        loadModel('UserModel.php');
+        $userModel = new UserModel();
         // Check email exist
-        $user = null; // Get user
+        $user = $userModel->getUserByEmail($email);
         if($user){
-        }else{
             throw new Exception('Email has existed!');
+        }else{
         }
         // Password
-        if (strlen($password) < 5 || strlen($password) > 32) {
-            throw new Exception('Password must be from 5 to 32 characters!');
+        if (strlen($password) < 4 || strlen($password) > 32) {
+            throw new Exception('Password must be from 4 to 32 characters!');
         }else{
             $password = md5($password);
         }
 
-
         // Register to database
-
+        $user = new User(null, $email, $password, $fullname);
+        $userModel->addUser($user);
         // Success message
         echo 'Register success, <a href="login.php">login here</a>';
     } catch (Exception $e) {

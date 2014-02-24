@@ -17,7 +17,7 @@ if (isset($_POST['login'])) {
             $password = md5($password);
         }
         
-        // Check username exist
+        // Check email exist
         loadModel('UserModel.php');
         $userModel = new UserModel();
         $user = $userModel->getUserByEmail($email);

@@ -21,6 +21,16 @@ class UserModel extends Model{
         );
         return $user;
     }
+
+    public function addUser($user){
+        $dom = $this->getDom();
+        var_dump($user); die;
+    }
+
+    public function getMaxUserID(){
+        $xpath = $this->getXpath();
+        $query = "//user[not(//user/@userID > @userID)]/@userID";
+    }
 }
 
 ?>

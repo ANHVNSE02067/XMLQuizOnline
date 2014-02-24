@@ -2,11 +2,11 @@
 <QuizOnline>
     <!-- Quizes -->
     <quizes>
-        <quiz quizID="Q01" staffID="S01" is_closed="1">
+        <quiz quizID="01" staffID="01" is_closed="1">
             <descriptionQuiz>Demo quiz</descriptionQuiz>
             <time>60</time>
             <questions>
-                <question questionID="QUES01">
+                <question questionID="01">
                     <descriptionQuestion>What is your nane?</descriptionQuestion>
                     <choices>
                         <choice correct="false">
@@ -20,7 +20,7 @@
                         </choice>
                     </choices>
                 </question>
-                <question questionID="QUES02">
+                <question questionID="02">
                     <descriptionQuestion>If she ___________ about his financial situation, she would have helped him out.</descriptionQuestion>
                     <choices>
                         <choice correct="false">
@@ -37,11 +37,11 @@
             </questions>
         </quiz>
 
-        <quiz quizID="Q02" staffID="S02" is_closed="1">
+        <quiz quizID="02" staffID="02" is_closed="1">
             <descriptionQuiz>English Quiz 1</descriptionQuiz>
             <time>60</time>
             <questions>
-                <question questionID="QUES03">
+                <question questionID="03">
                     <descriptionQuestion>“How was your exam?” “A couple of questions were tricky, but on the _____ it was pretty easy</descriptionQuestion>
                     <choices>
                         <choice correct="false">
@@ -58,7 +58,7 @@
                         </choice>
                     </choices>
                 </question>
-                <question questionID="QUES04">
+                <question questionID="04">
                     <descriptionQuestion>If you practice regularly, you can learn thia language skill in short _______ of a time</descriptionQuestion>
                     <choices>
                         <choice correct="false">
@@ -75,7 +75,7 @@
                         </choice>
                     </choices>
                 </question>
-                <question questionID="QUES05">
+                <question questionID="05">
                     <descriptionQuestion>Students can _______ a lot of information just by taking an active part in class.</descriptionQuestion>
                     <choices>
                         <choice correct="false">
@@ -92,7 +92,7 @@
                         </choice>
                     </choices>
                 </question>
-                <question questionID="QUES07">
+                <question questionID="07">
                     <descriptionQuestion>A few years ago, a fire _____ much of an overcrowed part of the city.</descriptionQuestion>
                     <choices>
                         <choice correct="false">
@@ -109,7 +109,7 @@
                         </choice>
                     </choices>
                 </question>
-                <question questionID="QUES08">
+                <question questionID="08">
                     <descriptionQuestion>I have learned a lot about the value of labour form my _______ at home.</descriptionQuestion>
                     <choices>
                         <choice correct="false">
@@ -129,11 +129,11 @@
             </questions>
         </quiz>
 
-        <quiz quizID="Q03" staffID="S03" is_closed="0">
+        <quiz quizID="03" staffID="03" is_closed="0">
             <descriptionQuiz>English Quiz 2</descriptionQuiz>
             <time>60</time>
             <questions>
-                <question questionID="QUES09">
+                <question questionID="09">
                     <descriptionQuestion>Although he tried to hide it, it was ______that Peter didn’t like his birthday present.</descriptionQuestion>
                     <choices>
                         <choice correct="false">
@@ -150,7 +150,7 @@
                         </choice>
                     </choices>
                 </question>
-                <question questionID="QUES10">
+                <question questionID="10">
                     <descriptionQuestion>Environemental groups try to stop farmers from using harmful ________ on their crops.</descriptionQuestion>
                     <choices>
                         <choice correct="false">
@@ -167,7 +167,7 @@
                         </choice>
                     </choices>
                 </question>
-                <question questionID="QUES11">
+                <question questionID="11">
                     <descriptionQuestion>If you ______ too much on study, you will get tired and stressed.</descriptionQuestion>
                     <choices>
                         <choice correct="false">
@@ -184,7 +184,7 @@
                         </choice>
                     </choices>
                 </question>
-                <question questionID="QUES12">
+                <question questionID="12">
                     <descriptionQuestion>Good heath and methods of study are very necessary, or _______ for success in college</descriptionQuestion>
                     <choices>
                         <choice correct="false">
@@ -201,7 +201,7 @@
                         </choice>
                     </choices>
                 </question>
-                <question questionID="QUES13">
+                <question questionID="13">
                     <descriptionQuestion>In order to _______ their goals in college, students need to invest the maximum amount f time, money, and energy in their studies.</descriptionQuestion>
                     <choices>
                         <choice correct="false">
@@ -221,11 +221,11 @@
             </questions>
         </quiz>
 
-        <quiz quizID="Q04" staffID="S05" is_closed="1">
+        <quiz quizID="04" staffID="05" is_closed="1">
             <descriptionQuiz>English Quiz 3</descriptionQuiz>
             <time>60</time>
             <questions>
-                <question questionID="QUES14">
+                <question questionID="14">
                     <descriptionQuestion>Parents have great hopes of great ______ when they send their children to school</descriptionQuestion>
                     <choices>
                         <choice correct="false">
@@ -242,7 +242,7 @@
                         </choice>
                     </choices>
                 </question>
-                <question questionID="QUES15">
+                <question questionID="15">
                     <descriptionQuestion>2.	No one ever takes any notices of what I say. They never give ______ to what I say</descriptionQuestion>
                     <choices>
                         <choice correct="false">
@@ -259,7 +259,7 @@
                         </choice>
                     </choices>
                 </question>
-                <question questionID="QUES16">
+                <question questionID="16">
                     <descriptionQuestion>She has changed so much that I didn’t _______ her right away.</descriptionQuestion>
                     <choices>
                         <choice correct="false">
@@ -276,7 +276,7 @@
                         </choice>
                     </choices>
                 </question>
-                <question questionID="QUES17">
+                <question questionID="17">
                     <descriptionQuestion>After graduation, she found _______ with a local finance company</descriptionQuestion>
                     <choices>
                         <choice correct="false">
@@ -293,7 +293,7 @@
                         </choice>
                     </choices>
                 </question>
-                <question questionID="QUES18">
+                <question questionID="18">
                     <descriptionQuestion>In order to _______ their goals in college, students need to invest the maximum amount f time, money, and energy in their studies.</descriptionQuestion>
                     <choices>
                         <choice correct="false">
@@ -313,11 +313,11 @@
             </questions>
         </quiz>
 
-        <quiz quizID="Q05" staffID="S09" is_closed="1">
+        <quiz quizID="05" staffID="09" is_closed="1">
             <descriptionQuiz>Vocabulary Quiz 1</descriptionQuiz>
             <time>60</time>
             <questions>
-                <question questionID="QUES19">
+                <question questionID="19">
                     <descriptionQuestion>All the students in the school are free to ______ any youth club they wish.</descriptionQuestion>
                     <choices>
                         <choice correct="false">
@@ -334,7 +334,7 @@
                         </choice>
                     </choices>
                 </question>
-                <question questionID="QUES20">
+                <question questionID="20">
                     <descriptionQuestion>His ________, has always been to become a movie director. He wants very much to achieve it.</descriptionQuestion>
                     <choices>
                         <choice correct="false">
@@ -351,7 +351,7 @@
                         </choice>
                     </choices>
                 </question>
-                <question questionID="QUES21">
+                <question questionID="21">
                     <descriptionQuestion>All the negative violence on television has had a negative _______ on children</descriptionQuestion>
                     <choices>
                         <choice correct="false">
@@ -368,7 +368,7 @@
                         </choice>
                     </choices>
                 </question>
-                <question questionID="QUES22">
+                <question questionID="22">
                     <descriptionQuestion>My mother ______ for an anvironmental group. She helps raise money to protect wildlife</descriptionQuestion>
                     <choices>
                         <choice correct="false">
@@ -385,7 +385,7 @@
                         </choice>
                     </choices>
                 </question>
-                <question questionID="QUES23">
+                <question questionID="23">
                     <descriptionQuestion>Students can _______ a lot of information just by attending claas and taking good notes of the lectures</descriptionQuestion>
                     <choices>
                         <choice correct="false">
@@ -405,11 +405,11 @@
             </questions>
         </quiz>
 
-        <quiz quizID="Q06" staffID="S11" is_closed="1">
+        <quiz quizID="06" staffID="11" is_closed="1">
             <descriptionQuiz>Vocabulary Quiz 2</descriptionQuiz>
             <time>60</time>
             <questions>
-                <question questionID="QUES24">
+                <question questionID="24">
                     <descriptionQuestion>All the students in the school are free to ______ any youth club they wish.</descriptionQuestion>
                     <choices>
                         <choice correct="false">
@@ -426,7 +426,7 @@
                         </choice>
                     </choices>
                 </question>
-                <question questionID="QUES25">
+                <question questionID="25">
                     <descriptionQuestion>His ________, has always been to become a movie director. He wants very much to achieve it.</descriptionQuestion>
                     <choices>
                         <choice correct="false">
@@ -443,7 +443,7 @@
                         </choice>
                     </choices>
                 </question>
-                <question questionID="QUES26">
+                <question questionID="26">
                     <descriptionQuestion>All the negative violence on television has had a negative _______ on children</descriptionQuestion>
                     <choices>
                         <choice correct="false">
@@ -460,7 +460,7 @@
                         </choice>
                     </choices>
                 </question>
-                <question questionID="QUES27">
+                <question questionID="27">
                     <descriptionQuestion>My mother ______ for an anvironmental group. She helps raise money to protect wildlife</descriptionQuestion>
                     <choices>
                         <choice correct="false">
@@ -477,7 +477,7 @@
                         </choice>
                     </choices>
                 </question>
-                <question questionID="QUES28">
+                <question questionID="28">
                     <descriptionQuestion>Students can _______ a lot of information just by attending claas and taking good notes of the lectures</descriptionQuestion>
                     <choices>
                         <choice correct="false">
@@ -497,11 +497,11 @@
             </questions>
         </quiz>
 
-        <quiz quizID="Q07" staffID="S12" is_closed="1">
+        <quiz quizID="07" staffID="12" is_closed="1">
             <descriptionQuiz>Vocabulary Quiz 3</descriptionQuiz>
             <time>60</time>
             <questions>
-                <question questionID="QUES29">
+                <question questionID="29">
                     <descriptionQuestion>I was talking to my aunt when suddenly my cousin Geroge ______ in on our conversation</descriptionQuestion>
                     <choices>
                         <choice correct="false">
@@ -518,7 +518,7 @@
                         </choice>
                     </choices>
                 </question>
-                <question questionID="QUES30">
+                <question questionID="30">
                     <descriptionQuestion>Hello, is Bill there?”.Yes, ________a minute, and I’ll get him</descriptionQuestion>
                     <choices>
                         <choice correct="false">
@@ -535,7 +535,7 @@
                         </choice>
                     </choices>
                 </question>
-                <question questionID="QUES31">
+                <question questionID="31">
                     <descriptionQuestion>After ten times, the students _____in their quizzes to the instructor</descriptionQuestion>
                     <choices>
                         <choice correct="false">
@@ -552,7 +552,7 @@
                         </choice>
                     </choices>
                 </question>
-                <question questionID="QUES32">
+                <question questionID="32">
                     <descriptionQuestion>“Have you_______this contract yet?” “Not yet. I’ll try to read this weekend”</descriptionQuestion>
                     <choices>
                         <choice correct="false">
@@ -569,7 +569,7 @@
                         </choice>
                     </choices>
                 </question>
-                <question questionID="QUES33">
+                <question questionID="33">
                     <descriptionQuestion>We didn’t like John when we first met him, but he has turned_______ to be a good friend to us.</descriptionQuestion>
                     <choices>
                         <choice correct="false">
@@ -589,11 +589,11 @@
             </questions>
         </quiz>
 
-        <quiz quizID="Q08" staffID="S14" is_closed="0">
+        <quiz quizID="08" staffID="14" is_closed="0">
             <descriptionQuiz>Grammar Quiz 1</descriptionQuiz>
             <time>60</time>
             <questions>
-                <question questionID="QUES34">
+                <question questionID="34">
                     <descriptionQuestion>This is Bob speaking. I need my pocket calculator. Can I have it back tomorrow? I can’t ________ it.</descriptionQuestion>
                     <choices>
                         <choice correct="false">
@@ -610,7 +610,7 @@
                         </choice>
                     </choices>
                 </question>
-                <question questionID="QUES35">
+                <question questionID="35">
                     <descriptionQuestion>“That old paint that you have stored in your garage is a fine hazard”. “You’re right. I should ______it”</descriptionQuestion>
                     <choices>
                         <choice correct="false">
@@ -627,7 +627,7 @@
                         </choice>
                     </choices>
                 </question>
-                <question questionID="QUES36">
+                <question questionID="36">
                     <descriptionQuestion>“Can you read that sign?” “Just a minute. Let me ______ my glasses”.</descriptionQuestion>
                     <choices>
                         <choice correct="false">
@@ -644,7 +644,7 @@
                         </choice>
                     </choices>
                 </question>
-                <question questionID="QUES37">
+                <question questionID="37">
                     <descriptionQuestion>“What ______ yout flight?” “There was a big snowstorm in Denver that delayed a lot of flights”.</descriptionQuestion>
                     <choices>
                         <choice correct="false">
@@ -661,7 +661,7 @@
                         </choice>
                     </choices>
                 </question>
-                <question questionID="QUES38">
+                <question questionID="38">
                     <descriptionQuestion>Eve was born in the South, but she grew ________ in the North.</descriptionQuestion>
                     <choices>
                         <choice correct="false">
@@ -681,11 +681,11 @@
             </questions>
         </quiz>
 
-        <quiz quizID="Q09" staffID="S16" is_closed="1">
+        <quiz quizID="09" staffID="16" is_closed="1">
             <descriptionQuiz>Grammar Quiz 2</descriptionQuiz>
             <time>60</time>
             <questions>
-                <question questionID="QUES39">
+                <question questionID="39">
                     <descriptionQuestion>This is Bob speaking. I need my pocket calculator. Can I have it back tomorrow? I can’t ________ it.</descriptionQuestion>
                     <choices>
                         <choice correct="false">
@@ -702,7 +702,7 @@
                         </choice>
                     </choices>
                 </question>
-                <question questionID="QUES40">
+                <question questionID="40">
                     <descriptionQuestion>“That old paint that you have stored in your garage is a fine hazard”. “You’re right. I should ______it”</descriptionQuestion>
                     <choices>
                         <choice correct="false">
@@ -719,7 +719,7 @@
                         </choice>
                     </choices>
                 </question>
-                <question questionID="QUES41">
+                <question questionID="41">
                     <descriptionQuestion>“Can you read that sign?” “Just a minute. Let me ______ my glasses”.</descriptionQuestion>
                     <choices>
                         <choice correct="false">
@@ -736,7 +736,7 @@
                         </choice>
                     </choices>
                 </question>
-                <question questionID="QUES42">
+                <question questionID="42">
                     <descriptionQuestion>“What ______ yout flight?” “There was a big snowstorm in Denver that delayed a lot of flights”.</descriptionQuestion>
                     <choices>
                         <choice correct="false">
@@ -753,7 +753,7 @@
                         </choice>
                     </choices>
                 </question>
-                <question questionID="QUES43">
+                <question questionID="43">
                     <descriptionQuestion>Eve was born in the South, but she grew ________ in the North.</descriptionQuestion>
                     <choices>
                         <choice correct="false">
@@ -773,11 +773,11 @@
             </questions>
         </quiz>
 
-        <quiz quizID="Q10" staffID="S17" is_closed="1">
+        <quiz quizID="10" staffID="17" is_closed="1">
             <descriptionQuiz>Basic Computer Skills Quiz 1</descriptionQuiz>
             <time>15</time>
             <questions>
-                <question questionID="QUES44">
+                <question questionID="44">
                     <descriptionQuestion>How do you open a program such as a Microsoft Word when there are no icons on the desktop?</descriptionQuestion>
                     <choices>
                         <choice correct="false">
@@ -794,7 +794,7 @@
                         </choice>
                     </choices>
                 </question>
-                <question questionID="QUES45">
+                <question questionID="45">
                     <descriptionQuestion>How do you minimize or maximize a program in Windows?</descriptionQuestion>
                     <choices>
                         <choice correct="false">
@@ -811,7 +811,7 @@
                         </choice>
                     </choices>
                 </question>
-                <question questionID="QUES46">
+                <question questionID="46">
                     <descriptionQuestion>How do you close a window on your desktop?</descriptionQuestion>
                     <choices>
                         <choice correct="false">
@@ -828,7 +828,7 @@
                         </choice>
                     </choices>
                 </question>
-                <question questionID="QUES47">
+                <question questionID="47">
                     <descriptionQuestion>A word processing file can be attached to an e-mail message?</descriptionQuestion>
                     <choices>
                         <choice correct="false">
@@ -845,7 +845,7 @@
                         </choice>
                     </choices>
                 </question>
-                <question questionID="QUES48">
+                <question questionID="48">
                     <descriptionQuestion>Which of the following is an example of an e-mail address?</descriptionQuestion>
                     <choices>
                         <choice correct="false">
@@ -865,11 +865,11 @@
             </questions>
         </quiz>
 
-        <quiz quizID="Q11" staffID="S18" is_closed="1">
+        <quiz quizID="11" staffID="18" is_closed="1">
             <descriptionQuiz>Basic Computer Skills Quiz 2</descriptionQuiz>
             <time>15</time>
             <questions>
-                <question questionID="QUES49">
+                <question questionID="49">
                     <descriptionQuestion>How do you open a program such as a Microsoft Word when there are no icons on the desktop?</descriptionQuestion>
                     <choices>
                         <choice correct="false">
@@ -886,7 +886,7 @@
                         </choice>
                     </choices>
                 </question>
-                <question questionID="QUES50">
+                <question questionID="50">
                     <descriptionQuestion>How do you minimize or maximize a program in Windows?</descriptionQuestion>
                     <choices>
                         <choice correct="false">
@@ -903,7 +903,7 @@
                         </choice>
                     </choices>
                 </question>
-                <question questionID="QUES51">
+                <question questionID="51">
                     <descriptionQuestion>How do you close a window on your desktop?</descriptionQuestion>
                     <choices>
                         <choice correct="false">
@@ -920,7 +920,7 @@
                         </choice>
                     </choices>
                 </question>
-                <question questionID="QUES52">
+                <question questionID="52">
                     <descriptionQuestion>A word processing file can be attached to an e-mail message?</descriptionQuestion>
                     <choices>
                         <choice correct="false">
@@ -937,7 +937,7 @@
                         </choice>
                     </choices>
                 </question>
-                <question questionID="QUES53">
+                <question questionID="53">
                     <descriptionQuestion>Which of the following is an example of an e-mail address?</descriptionQuestion>
                     <choices>
                         <choice correct="false">
@@ -957,11 +957,11 @@
             </questions>
         </quiz>
 
-        <quiz quizID="Q12" staffID="S15" is_closed="1">
+        <quiz quizID="12" staffID="15" is_closed="1">
             <descriptionQuiz>Basic Computer Skills Quiz 3</descriptionQuiz>
             <time>15</time>
             <questions>
-                <question questionID="QUES54">
+                <question questionID="54">
                     <descriptionQuestion>How do you open a program such as a Microsoft Word when there are no icons on the desktop?</descriptionQuestion>
                     <choices>
                         <choice correct="false">
@@ -978,7 +978,7 @@
                         </choice>
                     </choices>
                 </question>
-                <question questionID="QUES55">
+                <question questionID="55">
                     <descriptionQuestion>How do you minimize or maximize a program in Windows?</descriptionQuestion>
                     <choices>
                         <choice correct="false">
@@ -995,7 +995,7 @@
                         </choice>
                     </choices>
                 </question>
-                <question questionID="QUES56">
+                <question questionID="56">
                     <descriptionQuestion>How do you close a window on your desktop?</descriptionQuestion>
                     <choices>
                         <choice correct="false">
@@ -1012,7 +1012,7 @@
                         </choice>
                     </choices>
                 </question>
-                <question questionID="QUES57">
+                <question questionID="57">
                     <descriptionQuestion>A word processing file can be attached to an e-mail message?</descriptionQuestion>
                     <choices>
                         <choice correct="false">
@@ -1029,7 +1029,7 @@
                         </choice>
                     </choices>
                 </question>
-                <question questionID="QUES58">
+                <question questionID="58">
                     <descriptionQuestion>Which of the following is an example of an e-mail address?</descriptionQuestion>
                     <choices>
                         <choice correct="false">
@@ -1049,11 +1049,11 @@
             </questions>
         </quiz>
 
-        <quiz quizID="Q13" staffID="S19" is_closed="0">
+        <quiz quizID="13" staffID="19" is_closed="0">
             <descriptionQuiz>Basic Web Quiz 1</descriptionQuiz>
             <time>15</time>
             <questions>
-                <question questionID="QUES59">
+                <question questionID="59">
                     <descriptionQuestion>Which character entity would you use to display extra spaces on a webpage?</descriptionQuestion>
                     <choices>
                         <choice correct="false">
@@ -1070,7 +1070,7 @@
                         </choice>
                     </choices>
                 </question>
-                <question questionID="QUES55">
+                <question questionID="55">
                     <descriptionQuestion>How do you minimize or maximize a program in Windows?</descriptionQuestion>
                     <choices>
                         <choice correct="false">
@@ -1087,7 +1087,7 @@
                         </choice>
                     </choices>
                 </question>
-                <question questionID="QUES56">
+                <question questionID="56">
                     <descriptionQuestion>How do you close a window on your desktop?</descriptionQuestion>
                     <choices>
                         <choice correct="false">
@@ -1104,7 +1104,7 @@
                         </choice>
                     </choices>
                 </question>
-                <question questionID="QUES57">
+                <question questionID="57">
                     <descriptionQuestion>A word processing file can be attached to an e-mail message?</descriptionQuestion>
                     <choices>
                         <choice correct="false">
@@ -1121,7 +1121,7 @@
                         </choice>
                     </choices>
                 </question>
-                <question questionID="QUES58">
+                <question questionID="58">
                     <descriptionQuestion>Which of the following is an example of an e-mail address?</descriptionQuestion>
                     <choices>
                         <choice correct="false">
@@ -1141,11 +1141,11 @@
             </questions>
         </quiz>
 
-        <quiz quizID="Q14" staffID="S20" is_closed="0">
+        <quiz quizID="14" staffID="20" is_closed="0">
             <descriptionQuiz>Basic Web Quiz 2</descriptionQuiz>
             <time>15</time>
             <questions>
-                <question questionID="QUES60">
+                <question questionID="60">
                     <descriptionQuestion>Which character entity would you use to display extra spaces on a webpage?</descriptionQuestion>
                     <choices>
                         <choice correct="false">
@@ -1162,7 +1162,7 @@
                         </choice>
                     </choices>
                 </question>
-                <question questionID="QUES61">
+                <question questionID="61">
                     <descriptionQuestion>How do you minimize or maximize a program in Windows?</descriptionQuestion>
                     <choices>
                         <choice correct="false">
@@ -1179,7 +1179,7 @@
                         </choice>
                     </choices>
                 </question>
-                <question questionID="QUES62">
+                <question questionID="62">
                     <descriptionQuestion>How do you close a window on your desktop?</descriptionQuestion>
                     <choices>
                         <choice correct="false">
@@ -1196,7 +1196,7 @@
                         </choice>
                     </choices>
                 </question>
-                <question questionID="QUES63">
+                <question questionID="63">
                     <descriptionQuestion>A word processing file can be attached to an e-mail message?</descriptionQuestion>
                     <choices>
                         <choice correct="false">
@@ -1213,7 +1213,7 @@
                         </choice>
                     </choices>
                 </question>
-                <question questionID="QUES64">
+                <question questionID="64">
                     <descriptionQuestion>Which of the following is an example of an e-mail address?</descriptionQuestion>
                     <choices>
                         <choice correct="false">
