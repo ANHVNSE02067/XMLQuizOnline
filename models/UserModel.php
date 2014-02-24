@@ -24,12 +24,44 @@ class UserModel extends Model{
 
     public function addUser($user){
         $dom = $this->getDom();
-        var_dump($user); die;
+        $user->setUserID($this->generateID());
+        $userNode = $dom->createElement('user');
+        // Create ID Attribute
+        $userIDAttr = $dom->createAttribute('userID');
+        $userIDAttr->value = $user->getUserID();
+        $userNode->appendChild($userIDAttr);
+        // Create email node
+        $emailNode = $dom->createElement('email');
+        $emailNode->appendChild($dom->createTextNode($user->getEmail()));
+        $userNode->appendChild($emailNode);
+        // Create password node
+        $passwordNode = $dom->createElement('password');
+        $passwordNode->appendChild($dom->createTextNode($user->getPassword()));
+        $userNode->appendChild($passwordNode);
+        // Create fullname node
+        $fullnameNode = $dom->createElement('fullname');
+        $fullnameNode->appendChild($dom->createTextNode($user->getFullname()));
+        $userNode->appendChild($fullnameNode);
+        // Add new userNode
+        $dom->getElementsByTagName('users')
+            ->item(0)
+            ->appendChild($userNode);
+        // save to database
+        $this->save();
     }
 
     public function getMaxUserID(){
         $xpath = $this->getXpath();
         $query = "//user[not(//user/@userID > @userID)]/@userID";
+        $elements = $xpath->query($query);
+        if($elements->length == 0) return 0;
+        $userID = $elements->item(0)->value;
+        return $userID;
+    }
+
+    public function generateID(){
+        $maxID = $this->getMaxUserID();
+        return $maxID + 1;
     }
 }
 

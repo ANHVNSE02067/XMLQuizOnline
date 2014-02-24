@@ -40,7 +40,14 @@ if (isset($_POST['login'])) {
         }
 
     } catch (Exception $e) {
-        die($e->getMessage() . '<br><a href="login.php">Try again!</a>');
+        $message = $e->getMessage() . '<br><a href="login.php">Try again!</a>';
+        // Render error View
+        $view = new View();
+        $view->setLayout('user/layout.php');
+        $view->setView('error.php');
+        $view->setData('title', 'Invalid');
+        $view->setData('message', $message);
+        $view->render();
     }
 } else {
     // Render view

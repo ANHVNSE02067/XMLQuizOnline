@@ -9,7 +9,7 @@
     </div>
     <div>
         <label for="fullname">Fullname*: </label>
-        <input id="fullname" type="password" name="fullname">
+        <input id="fullname" type="text" name="fullname">
     </div>
     <div style="text-align: center;">
         <input id="register" type="submit" name="register" value="Register">
