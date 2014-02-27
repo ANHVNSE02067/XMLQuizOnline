@@ -4,7 +4,7 @@ if(!Auth::isUserAuth()) Auth::redirectToUserLoginPage ();
 // Render View
 $view = new View();
 $view->setLayout('user/layout.php');
-$view->setView('user/index/index.php');
+$view->setView('user/index.php');
 $view->loadCss('public/css/home.css');
 $view->loadJs('public/js/home.js');
 $view->setData('title', 'Home Page');

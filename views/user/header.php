@@ -9,7 +9,7 @@
             <a href="login.php">Login</a>
             <a href="register.php">Register</a>
         <?php } else { ?>
-            Hello <?php echo Auth::getUserAuthIdentity()->getUsername(); ?>, <a href="logout.php">(logout)</a>
+            Hello <span class="username"><?php echo Auth::getUserAuthIdentity()->getUsername(); ?></span>, | <a href="update_pass.php">Change pass</a> | <a href="logout.php">Logout</a>
         <?php } ?>   
     </div>
 </div>

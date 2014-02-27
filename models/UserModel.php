@@ -49,6 +49,18 @@ class UserModel extends Model{
         // save to database
         $this->save();
     }
+    
+
+    public function updatePassword($userID, $newPassword){
+        $xpath = $this->getXpath();
+        $userID = intval($userID);
+        $query = "//user[@userID='{$userID}']";
+        $elements = $xpath->query($query);
+        if($elements->length == 0) return false;
+        $element = $elements->item(0);
+        $element->getElementsByTagName('password')->item(0)->nodeValue =  $newPassword;
+        return $this->save();
+    }
 
     public function getMaxUserID(){
         $xpath = $this->getXpath();

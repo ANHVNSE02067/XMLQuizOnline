@@ -36,7 +36,9 @@ body{
     display: inline-block;
     margin-left: 7px;
 } 
-
+#header .username{
+    color: red;
+}
 #main{
     padding-top: 10px;
     width: 1024px;
