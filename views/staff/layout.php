@@ -10,7 +10,7 @@ Member:
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title><?php echo isset($this->data['title']) ? $this->data['title'] : ''; ?> - Quiz Online System</title>
+        <title><?php echo isset($this->data['title']) ? $this->data['title'] : ''; ?> - Quiz Online Staff Panel</title>
         <!-- css -->
         <link type="text/css" rel="stylesheet" href="<?php echo SITE_URL; ?>public/lib/fancybox/jquery.fancybox-1.3.4.css">
         <link type="text/css" rel="stylesheet" href="<?php echo SITE_URL; ?>public/css/staff/layout.css">

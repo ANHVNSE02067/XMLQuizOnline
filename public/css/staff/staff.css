@@ -1,0 +1,25 @@
+#listStaff th,
+#listStaff td{
+    text-align: center;
+}
+#listStaff .col-id{
+    width: 50px;
+}
+#listStaff .col-action{
+    width: 200px;
+}
+#listStaff .col-name{
+    width: 250px;
+}
+#btnAddStaff{
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: green;
+    color: white;
+}
+
+#btnAddStaff:hover{
+    background-color: darkgreen;
+}

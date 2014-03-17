@@ -1,0 +1,25 @@
+#listUser th,
+#listUser td{
+    text-align: center;
+}
+#listUser .col-id{
+    width: 50px;
+}
+#listUser .col-action{
+    width: 200px;
+}
+#listUser .col-name{
+    width: 250px;
+}
+#btnAddUser{
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: green;
+    color: white;
+}
+
+#btnAddUser:hover{
+    background-color: darkgreen;
+}

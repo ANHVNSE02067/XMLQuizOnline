@@ -88,3 +88,47 @@ div.info{
     text-align: center;
     font-size: 12px;
 }
+
+.table-list{
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    width: 980px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    margin: 0 auto;
+}
+.table-list td,
+.table-list th{
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.table-list thead{
+    background-color: #194F19;
+    color: white;
+}
+
+.table-list .btn-edit,
+.table-list .btn-delete{
+    width: 70px;
+    padding: 7px;
+    display: inline-block;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    color: white;
+}
+
+.btn-delete{
+    background-color: red;
+}
+.btn-delete:hover{
+    color: darkred;
+}
+.btn-edit{
+    background-color: #33CC33;
+}
+.btn-edit:hover{
+    background-color: green;
+}
