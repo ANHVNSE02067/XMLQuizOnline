@@ -1,5 +1,4 @@
 <?php
-
 require 'global.php';
 if (isset($_POST['register'])) {
     try {
@@ -7,15 +6,15 @@ if (isset($_POST['register'])) {
         $password = trim(Request::get('password', null));
         $fullname = trim(Request::get('fullname', null));
 
-        if(empty($email)){
+        if (empty($email)) {
             throw new Exception('Email cannot be blank');
         }
 
-        if(empty($password)){
+        if (empty($password)) {
             throw new Exception('Password cannot be blank');
         }
 
-        if(empty($fullname)){
+        if (empty($fullname)) {
             throw new Exception('Fullname cannot be blank');
         }
 
@@ -24,14 +23,14 @@ if (isset($_POST['register'])) {
         $userModel = new UserModel();
         // Check email exist
         $user = $userModel->getUserByEmail($email);
-        if($user){
+        if ($user) {
             throw new Exception('Email has existed!');
-        }else{
+        } else {
         }
         // Password
         if (strlen($password) < 4 || strlen($password) > 32) {
             throw new Exception('Password must be from 4 to 32 characters!');
-        }else{
+        } else {
             $password = md5($password);
         }
 

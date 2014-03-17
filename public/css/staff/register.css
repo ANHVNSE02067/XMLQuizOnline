@@ -1,0 +1,31 @@
+#frmRegister{
+    width: 400px;
+    margin: 0 auto;
+    font-size: 18px;
+    background-color: cadetblue;
+    padding: 10px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+#frmRegister > div{
+    margin: 10px;
+}
+#frmRegister label{
+    width: 90px;
+    display: inline-block;
+    cursor: pointer;
+}
+#frmRegister input{
+    font-size: 18px;
+    padding: 5px;
+    display: inline-block;
+}
+#frmRegister input[type=password],
+#frmRegister input[type=text]{
+    width: 250px;
+}
+#frmRegister input[type=submit]{
+    padding: 10px;
+    cursor: pointer;
+}

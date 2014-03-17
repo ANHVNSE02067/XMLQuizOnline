@@ -1,101 +1,11 @@
 <?xml version="1.0"?>
 <QuizOnline>
-    <!-- Staffs list -->
-    <staffs>
-        <staff staffID="01">
-            <email>Phasellus.at.augue@Nunc.co.uk</email>
-            <password>e10adc3949ba59abbe56e057f20f883e</password>
-            <fullname>Vivian Mendez</fullname>
-        </staff>
-        <staff staffID="02">
-            <email>leo@arcu.co.uk</email>
-            <password>e10adc3949ba59abbe56e057f20f883e</password>
-            <fullname>Camilla Valdez</fullname>
-        </staff>
-        <staff staffID="03">
-            <email>enim.Sed@ipsumsodalespurus.net</email>
-            <password>e10adc3949ba59abbe56e057f20f883e</password>
-            <fullname>Zia Wilkins</fullname>
-        </staff>
-        <staff staffID="04">
-            <email>sem@eleifendegestas.com</email>
-            <password>e10adc3949ba59abbe56e057f20f883e</password>
-            <fullname>Cruz Webster</fullname>
-        </staff>
-        <staff staffID="05">
-            <email>fringilla.purus.mauris@sitametorci.co.uk</email>
-            <password>e10adc3949ba59abbe56e057f20f883e</password>
-            <fullname>Stone Fischer</fullname>
-        </staff>
-        <staff staffID="06">
-            <email>magnis@tempusnonlacinia.net</email>
-            <password>e10adc3949ba59abbe56e057f20f883e</password>
-            <fullname>Amelia Gill</fullname>
-        </staff>
-        <staff staffID="07">
-            <email>elit@loremsitamet.ca</email>
-            <password>e10adc3949ba59abbe56e057f20f883e</password>
-            <fullname>Mason Brown</fullname>
-        </staff>
-        <staff staffID="08">
-            <email>Duis.dignissim@rutrummagna.edu</email>
-            <password>e10adc3949ba59abbe56e057f20f883e</password>
-            <fullname>Akeem Decker</fullname>
-        </staff>
-        <staff staffID="09">
-            <email>mauris.erat@inlobortis.co.uk</email>
-            <password>e10adc3949ba59abbe56e057f20f883e</password>
-            <fullname>Sage Gentry</fullname>
-        </staff>
-        <staff staffID="10">
-            <email>et@venenatislacus.net</email>
-            <password>e10adc3949ba59abbe56e057f20f883e</password>
-            <fullname>Venus Mckinney</fullname>
-        </staff>
-        <staff staffID="12">
-            <email>Vestibulum.ante.ipsum@erat.co.uk</email>
-            <password>e10adc3949ba59abbe56e057f20f883e</password>
-            <fullname>Burke Dotson</fullname>
-        </staff>
-        <staff staffID="13">
-            <email>scelerisque.sed@nonenim.com</email>
-            <password>e10adc3949ba59abbe56e057f20f883e</password>
-            <fullname>Ignacia Calderon</fullname>
-        </staff>
-        <staff staffID="14">
-            <email>iaculis.aliquet@tortorNunccommodo.com</email>
-            <password>e10adc3949ba59abbe56e057f20f883e</password>
-            <fullname>Hadassah Finley</fullname>
-        </staff>
-        <staff staffID="15">
-            <email>fringilla.Donec.feugiat@ategestas.ca</email>
-            <password>e10adc3949ba59abbe56e057f20f883e</password>
-            <fullname>Laurel Nunez</fullname>
-        </staff>
-        <staff staffID="16">
-            <email>dictum.magna@risusDuisa.org</email>
-            <password>e10adc3949ba59abbe56e057f20f883e</password>
-            <fullname>Emmanuel Webster</fullname>
-        </staff>
-        <staff staffID="17">
-            <email>Curabitur@sitamet.org</email>
-            <password>e10adc3949ba59abbe56e057f20f883e</password>
-            <fullname>Yvonne Huffman</fullname>
-        </staff>
-        <staff staffID="18">
-            <email>eros.non.enim@liberodui.org</email>
-            <password>e10adc3949ba59abbe56e057f20f883e</password>
-            <fullname>Jamalia Lynch</fullname>
-        </staff>
-        <staff staffID="19">
-            <email>amet.nulla.Donec@CuraeDonec.org</email>
-            <password>e10adc3949ba59abbe56e057f20f883e</password>
-            <fullname>Allistair Wilkins</fullname>
-        </staff>
-        <staff staffID="20">
-            <email>hendrerit@sollicitudin.net</email>
-            <password>e10adc3949ba59abbe56e057f20f883e</password>
-            <fullname>Mason Everett</fullname>
-        </staff>
-    </staffs>
+  <!-- Staffs list -->
+  <staffs>
+    <staff staffID="1">
+      <email>anhvn@edu.vn</email>
+      <password>51f0f80436ae48f5a151196b17474e5e</password>
+      <fullname>Anh Sensei</fullname>
+    </staff>
+  </staffs>
 </QuizOnline>

@@ -1,5 +1,5 @@
 <?php
 
-require 'global.php';
-Auth::unsetUserAuthIdentity();
-Auth::redirect(SITE_URL);
+require '../global.php';
+Auth::unsetStaffAuthIdentity();
+Auth::redirect(STAFF_URL);

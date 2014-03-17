@@ -1,26 +1,26 @@
 <?php
-require 'global.php';
-if (!Auth::isUserAuth()) {
-    Auth::redirectToUserLoginPage ();
+require '../global.php';
+if (!Auth::isStaffAuth()) {
+    Auth::redirectToStaffLoginPage ();
 }
-$authUser = Auth::getUserAuthIdentity();
-loadModel('UserModel.php');
-$userModel = new UserModel();
+$authStaff = Auth::getStaffAuthIdentity();
+loadModel('StaffModel.php');
+$staffModel = new StaffModel();
 if (isset($_POST['update'])) {
     try {
         $oldpassword = trim(Request::get('oldpassword', null));
         $newpassword = trim(Request::get('newpassword', null));
         $repassword = trim(Request::get('repassword', null));
-        $user = $userModel->getUserByEmail($authUser->getEmail());
-        if (!$user) {
-            throw new Exception('User not found!!');
+        $staff = $staffModel->getStaffByEmail($authStaff->getEmail());
+        if (!$staff) {
+            throw new Exception('Staff not found!!');
         }
 
         if (empty($oldpassword)) {
             throw new Exception('Old password cannot be blank');
         }
 
-        if (md5($oldpassword) !== $user->getPassword()) {
+        if (md5($oldpassword) !== $staff->getPassword()) {
             throw new Exception('Wrong old password');
         }
 
@@ -33,11 +33,11 @@ if (isset($_POST['update'])) {
         }
 
         // Update to database
-        if ($userModel->updatePassword($user->getUserID(), md5($newpassword))) {
+        if ($staffModel->updatePassword($staff->getStaffID(), md5($newpassword))) {
             // Success message
             $message = 'Update success, <a href="logout.php">Re-login here</a>';
             $view = new View();
-            $view->setLayout('user/layout.php');
+            $view->setLayout('staff/layout.php');
             $view->setView('info.php');
             $view->setData('title', 'Invalid');
             $view->setData('message', $message);
@@ -49,7 +49,7 @@ if (isset($_POST['update'])) {
         $message = $e->getMessage() . '<br><a href="update_pass.php">Try again!</a>';
         // Render error View
         $view = new View();
-        $view->setLayout('user/layout.php');
+        $view->setLayout('staff/layout.php');
         $view->setView('error.php');
         $view->setData('title', 'Invalid');
         $view->setData('message', $message);
@@ -58,9 +58,9 @@ if (isset($_POST['update'])) {
 } else {
     // Render register view
     $view = new View();
-    $view->setLayout('user/layout.php');
-    $view->setView('user/update_pass.php');
-    $view->loadCss('public/css/user/update_pass.css');
+    $view->setLayout('staff/layout.php');
+    $view->setView('staff/update_pass.php');
+    $view->loadCss('public/css/staff/update_pass.css');
     $view->setData('title', 'Update Password!');
     $view->render();
 }

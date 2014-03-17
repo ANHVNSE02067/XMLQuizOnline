@@ -1,0 +1,32 @@
+
+#frmUpdatePass{
+    width: 500px;
+    margin: 0 auto;
+    font-size: 18px;
+    background-color: #599C59;
+    padding: 10px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+#frmUpdatePass > div{
+    margin: 10px;
+}
+#frmUpdatePass label{
+    width: 190px;
+    display: inline-block;
+    cursor: pointer;
+}
+#frmUpdatePass input{
+    font-size: 18px;
+    padding: 5px;
+    display: inline-block;
+}
+#frmUpdatePass input[type=password],
+#frmUpdatePass input[type=text]{
+    width: 250px;
+}
+#frmUpdatePass input[type=submit]{
+    padding: 10px;
+    cursor: pointer;
+}

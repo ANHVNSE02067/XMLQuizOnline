@@ -17,5 +17,10 @@
       <password>f42ada8dfefe87e79638ea532c3b3df5</password>
       <fullname>V&#xF5; Tu&#x1EA5;n Trung</fullname>
     </user>
+    <user userID="4">
+      <email>hieutt</email>
+      <password>21232f297a57a5a743894a0e4a801fc3</password>
+      <fullname>Hieu</fullname>
+    </user>
   </users>
 </QuizOnline>

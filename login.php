@@ -1,7 +1,8 @@
 <?php
-
 require 'global.php';
-if(Auth::isUserAuth()) Auth::redirect (SITE_URL); 
+if (Auth::isUserAuth()) {
+    Auth::redirect (SITE_URL); 
+}
 if (isset($_POST['login'])) {
     try {
         $email = trim(Request::get('email', null));
@@ -9,23 +10,23 @@ if (isset($_POST['login'])) {
         if (!$email) {
             throw new Exception('Username cannot be blank');
         }
-        
+
         // Password
         if (!$password) {
             throw new Exception('Password cannot be blank');
-        }else{
+        } else {
             $password = md5($password);
         }
-        
+
         // Check email exist
         loadModel('UserModel.php');
         $userModel = new UserModel();
         $user = $userModel->getUserByEmail($email);
-        if(!$user){
+        if (!$user) {
             throw new Exception('Email does not exist!');
-        }else{
+        } else {
             // Compare password
-            if($user->getPassword() == $password){
+            if ($user->getPassword() == $password) {
                 // Login success
                 $authUser = new AuthUser();
                 $authUser->setUserId($user->getUserID());
@@ -34,7 +35,7 @@ if (isset($_POST['login'])) {
                 $authUser->setRole(AuthUser::USER);
                 Auth::setUserAuthIdentity($authUser);
                 Auth::redirect(SITE_URL);
-            } else{
+            } else {
                 throw new Exception('Password is not correct!');
             }
         }

@@ -1,6 +1,8 @@
 <?php
 require 'global.php';
-if(!Auth::isUserAuth()) Auth::redirectToUserLoginPage ();
+if (!Auth::isUserAuth()) {
+    Auth::redirectToUserLoginPage ();
+}
 // Render View
 $view = new View();
 $view->setLayout('user/layout.php');

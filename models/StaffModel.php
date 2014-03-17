@@ -1,66 +1,66 @@
 <?php
 
-class UserModel extends Model{
+class StaffModel extends Model{
 
     public function __construct()
     {
-        parent::__construct('User.xml');
+        parent::__construct('Staff.xml');
     }
 
-    public function getUserByEmail($email)
+    public function getStaffByEmail($email)
     {
         $email = addslashes($email);
         $xpath = $this->getXpath();
-        $query  = "//user[email='$email']";
+        $query  = "//staff[email='$email']";
         $elements = $xpath->query($query);// class DOMNodeList
         if ($elements->length == 0) {
             return false;
         }
         $element = $elements->item(0);
-        $user = new User(
-            $element->getAttribute('userID'),
+        $staff = new Staff(
+            $element->getAttribute('staffID'),
             $element->getElementsByTagName('email')->item(0)->nodeValue,
             $element->getElementsByTagName('password')->item(0)->nodeValue,
             $element->getElementsByTagName('fullname')->item(0)->nodeValue
         );
-        return $user;
+        return $staff;
     }
 
-    public function addUser($user)
+    public function addStaff($staff)
     {
         $dom = $this->getDom();
-        $user->setUserID($this->generateID());
-        $userNode = $dom->createElement('user');
+        $staff->setStaffID($this->generateID());
+        $staffNode = $dom->createElement('staff');
         // Create ID Attribute
-        $userIDAttr = $dom->createAttribute('userID');
-        $userIDAttr->value = $user->getUserID();
-        $userNode->appendChild($userIDAttr);
+        $staffIDAttr = $dom->createAttribute('staffID');
+        $staffIDAttr->value = $staff->getStaffID();
+        $staffNode->appendChild($staffIDAttr);
         // Create email node
         $emailNode = $dom->createElement('email');
-        $emailNode->appendChild($dom->createTextNode($user->getEmail()));
-        $userNode->appendChild($emailNode);
+        $emailNode->appendChild($dom->createTextNode($staff->getEmail()));
+        $staffNode->appendChild($emailNode);
         // Create password node
         $passwordNode = $dom->createElement('password');
-        $passwordNode->appendChild($dom->createTextNode($user->getPassword()));
-        $userNode->appendChild($passwordNode);
+        $passwordNode->appendChild($dom->createTextNode($staff->getPassword()));
+        $staffNode->appendChild($passwordNode);
         // Create fullname node
         $fullnameNode = $dom->createElement('fullname');
-        $fullnameNode->appendChild($dom->createTextNode($user->getFullname()));
-        $userNode->appendChild($fullnameNode);
-        // Add new userNode
-        $dom->getElementsByTagName('users')
+        $fullnameNode->appendChild($dom->createTextNode($staff->getFullname()));
+        $staffNode->appendChild($fullnameNode);
+        // Add new staffNode
+        $dom->getElementsByTagName('staffs')
             ->item(0)
-            ->appendChild($userNode);
+            ->appendChild($staffNode);
         // save to database
         $this->save();
     }
     
 
-    public function updatePassword($userID, $newPassword)
+    public function updatePassword($staffID, $newPassword)
     {
         $xpath = $this->getXpath();
-        $userID = intval($userID);
-        $query = "//user[@userID='{$userID}']";
+        $staffID = intval($staffID);
+        $query = "//staff[@staffID='{$staffID}']";
         $elements = $xpath->query($query);
         if ($elements->length == 0) {
             return false;
@@ -70,21 +70,21 @@ class UserModel extends Model{
         return $this->save();
     }
 
-    public function getMaxUserID()
+    public function getMaxStaffID()
     {
         $xpath = $this->getXpath();
-        $query = "//user[not(//user/@userID > @userID)]/@userID";
+        $query = "//staff[not(//staff/@staffID > @staffID)]/@staffID";
         $elements = $xpath->query($query);
         if ($elements->length == 0) {
             return 0;
         }
-        $userID = $elements->item(0)->value;
-        return $userID;
+        $staffID = $elements->item(0)->value;
+        return $staffID;
     }
 
     public function generateID()
     {
-        $maxID = $this->getMaxUserID();
+        $maxID = $this->getMaxStaffID();
         return $maxID + 1;
     }
 }
