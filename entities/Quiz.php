@@ -6,10 +6,10 @@ class Quiz
     private $_time;
     private $_questions;
     
-    public function __construct($descriptionQuiz = null, $time = null, $question = array()) {
+    public function __construct($descriptionQuiz = null, $time = null, $questions = array()) {
         $this->_descriptionQuiz = $descriptionQuiz;
         $this->_time = $time;
-        $this->_questions = $question;
+        $this->_questions = $questions;
     }
     
     public function setDescriptionQuiz($descriptionQuiz)

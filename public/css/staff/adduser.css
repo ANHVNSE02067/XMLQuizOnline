@@ -1,0 +1,32 @@
+#frmAddUser{
+    width: 400px;
+    margin: 0 auto;
+    font-size: 18px;
+    background-color: #194F19;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+#frmAddUser > div{
+    margin: 10px;
+}
+#frmAddUser label{
+    width: 90px;
+    display: inline-block;
+    cursor: pointer;
+}
+#frmAddUser input{
+    font-size: 18px;
+    padding: 5px;
+    display: inline-block;
+}
+#frmAddUser input[type=password],
+#frmAddUser input[type=text]{
+    width: 250px;
+}
+#frmAddUser input[type=submit]{
+    padding: 10px;
+    cursor: pointer;
+}

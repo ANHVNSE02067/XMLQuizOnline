@@ -22,5 +22,10 @@
       <password>21232f297a57a5a743894a0e4a801fc3</password>
       <fullname>Hieu</fullname>
     </user>
+    <user userID="5">
+      <email>thangvm@gmail.com</email>
+      <password>5ad3bac4175b7a7c41d58eb0f9f192d6</password>
+      <fullname>V&#x169; Minh Th&#x1EAF;ng</fullname>
+    </user>
   </users>
 </QuizOnline>
