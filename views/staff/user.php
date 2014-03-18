@@ -1,3 +1,8 @@
+<form id="frmUserFilter">
+<div>
+    <input id="userFilter" type="text" placeholder="filter..">
+</div>
+</form>
 <table id="listUser" class="table-list" border="1">
     <thead>
         <tr>

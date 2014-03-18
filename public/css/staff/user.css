@@ -23,3 +23,24 @@
 #btnAddUser:hover{
     background-color: darkgreen;
 }
+
+#frmUserFilter{
+    width: 980px;
+    margin: 0 auto;
+    padding: 7px 0;
+    display: block;
+    overflow: hidden;
+}
+
+#frmUserFilter input[type=text]{
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    float: right;
+    display: block;
+    width: 300px;
+    font-size: 16px;
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+
