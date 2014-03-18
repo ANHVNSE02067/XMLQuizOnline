@@ -7,6 +7,26 @@ class UserModel extends Model{
         parent::__construct('User.xml');
     }
 
+    public function getAllUsers()
+    {
+        $xpath = $this->getXpath();
+        $query  = "//user";
+        $elements = $xpath->query($query);// class DOMNodeList
+        if ($elements->length == 0) {
+            return false;
+        }
+        $users = array();
+        foreach ($elements as $element) {
+            $users[] = new User(
+                $element->getAttribute('userID'),
+                $element->getElementsByTagName('email')->item(0)->nodeValue,
+                $element->getElementsByTagName('password')->item(0)->nodeValue,
+                $element->getElementsByTagName('fullname')->item(0)->nodeValue
+            );
+        }
+        return $users;
+    }
+
     public function getUserByEmail($email)
     {
         $email = addslashes($email);

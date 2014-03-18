@@ -7,5 +7,20 @@
       <password>51f0f80436ae48f5a151196b17474e5e</password>
       <fullname>Anh Sensei</fullname>
     </staff>
+    <staff staffID="2">
+      <email>hieutt@edu.vn</email>
+      <password>59217aa9c3646b3cb4abb7141455903d</password>
+      <fullname>hieutt</fullname>
+    </staff>
+    <staff staffID="3">
+      <email>trungvt@edu.vn</email>
+      <password>f42ada8dfefe87e79638ea532c3b3df5</password>
+      <fullname>V&#xF5; Tu&#x1EA5;n Trung</fullname>
+    </staff>
+    <staff staffID="4">
+      <email>thangvm@edu.vn</email>
+      <password>cf49bda25135563e16335a5c483bc380</password>
+      <fullname>V&#x169; Minh Th&#x1EAF;ng</fullname>
+    </staff>
   </staffs>
 </QuizOnline>

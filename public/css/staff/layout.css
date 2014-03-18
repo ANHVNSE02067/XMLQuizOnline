@@ -101,7 +101,7 @@ div.info{
 .table-list td,
 .table-list th{
     border: 1px solid #ccc;
-    padding: 10px;
+    padding: 5px;
 }
 
 .table-list thead{
@@ -112,7 +112,7 @@ div.info{
 .table-list .btn-edit,
 .table-list .btn-delete{
     width: 70px;
-    padding: 7px;
+    padding: 4px;
     display: inline-block;
     cursor: pointer;
     border: 1px solid #ccc;

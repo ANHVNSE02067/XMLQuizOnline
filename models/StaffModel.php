@@ -7,6 +7,26 @@ class StaffModel extends Model{
         parent::__construct('Staff.xml');
     }
 
+    public function getAllStaffs()
+    {
+        $xpath = $this->getXpath();
+        $query  = "//staff";
+        $elements = $xpath->query($query);// class DOMNodeList
+        if ($elements->length == 0) {
+            return false;
+        }
+        $staffs = array();
+        foreach ($elements as $element) {
+            $staffs[] = new Staff(
+                $element->getAttribute('staffID'),
+                $element->getElementsByTagName('email')->item(0)->nodeValue,
+                $element->getElementsByTagName('password')->item(0)->nodeValue,
+                $element->getElementsByTagName('fullname')->item(0)->nodeValue
+            );
+        }
+        return $staffs;
+    }
+
     public function getStaffByEmail($email)
     {
         $email = addslashes($email);

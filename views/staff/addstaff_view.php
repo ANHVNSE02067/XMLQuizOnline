@@ -1,4 +1,4 @@
-<form id="frmRegister" method="post">
+<form id="frmAddStaff" method="post">
     <div>
         <label for="email">Email*: </label>
         <input id="email" type="text" name="email">
@@ -12,6 +12,6 @@
         <input id="fullname" type="text" name="fullname">
     </div>
     <div style="text-align: center;">
-        <input id="register" type="submit" name="register" value="Register">
+        <input id="register" type="submit" name="addStaff" value="Add">
     </div>
 </form>

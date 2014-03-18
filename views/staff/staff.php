@@ -8,19 +8,21 @@
         </tr>
     </thead>
     <tbody>
+<?php foreach ($this->data['staffs'] as $staff) { ?>
         <tr>
-            <td class="col-id">1</td>
-            <td class="col-name">Vu Nhat Anh</td>
-            <td class="col-email">anhvn@gmail.com</td>
+        <td class="col-id"><?php echo $staff->getStaffID(); ?></td>
+        <td class="col-name"><?php echo $staff->getFullname(); ?></td>
+        <td class="col-email"><?php echo $staff->getEmail(); ?></td>
             <td class="col-action">
                 <button type="button" class="btn-edit">Edit</button>
                 <button type="button" class="btn-delete">Delete</button>
             </td>
-        </tr>
+            </tr>
+<?php } ?>
         <tfoot>
             <tr>
                 <td colspan="4">
-                    <button type="button" id="btnAddStaff">Add Staff</button>
+                    <button type="button" id="btnAddStaff" onclick="document.location.href='add_staff.php'">Add Staff</button>
                 </td>
             </tr>
         </tfoot>
