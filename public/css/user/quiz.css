@@ -31,4 +31,12 @@
     display: inline-block;
     cursor: pointer;
 }
-
+#questions button[type=submit]{
+    padding: 10px;
+    font-size: 16px;
+    background-color: #13202C;
+    color: white;
+    width: 100px;
+    display: block;
+    margin: 0 auto;
+}

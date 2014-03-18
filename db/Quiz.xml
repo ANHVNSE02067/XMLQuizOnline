@@ -2,34 +2,34 @@
 <QuizOnline>
     <!-- Quizes -->
     <quizes>
-        <quiz quizID="01" staffID="01" is_closed="1">
+        <quiz quizID="1" staffID="1" is_closed="1">
             <descriptionQuiz>Demo quiz</descriptionQuiz>
             <time>60</time>
             <questions>
-                <question questionID="01">
+                <question questionID="1">
                     <descriptionQuestion>What is your nane?</descriptionQuestion>
                     <choices>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>Tran Trung Hieu</descriptionChoice>
                         </choice>
-                        <choice correct="true">
+                        <choice correct="1">
                             <descriptionChoice>Vu Nhat Anh</descriptionChoice>
                         </choice>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>Vo Tuan Trung</descriptionChoice>
                         </choice>
                     </choices>
                 </question>
-                <question questionID="02">
+                <question questionID="2">
                     <descriptionQuestion>If she ___________ about his financial situation, she would have helped him out.</descriptionQuestion>
                     <choices>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>knew</descriptionChoice>
                         </choice>
-                        <choice correct="true">
+                        <choice correct="1">
                             <descriptionChoice>has been knowing</descriptionChoice>
                         </choice>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>had known</descriptionChoice>
                         </choice>
                     </choices>
@@ -37,91 +37,91 @@
             </questions>
         </quiz>
 
-        <quiz quizID="02" staffID="02" is_closed="1">
+        <quiz quizID="2" staffID="2" is_closed="1">
             <descriptionQuiz>English Quiz 1</descriptionQuiz>
             <time>60</time>
             <questions>
-                <question questionID="03">
+                <question questionID="3">
                     <descriptionQuestion>“How was your exam?” “A couple of questions were tricky, but on the _____ it was pretty easy</descriptionQuestion>
                     <choices>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>spot</descriptionChoice>
                         </choice>
-                        <choice correct="true">
+                        <choice correct="1">
                             <descriptionChoice>general</descriptionChoice>
                         </choice>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>general</descriptionChoice>
                         </choice>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>whole</descriptionChoice>
                         </choice>
                     </choices>
                 </question>
-                <question questionID="04">
+                <question questionID="4">
                     <descriptionQuestion>If you practice regularly, you can learn thia language skill in short _______ of a time</descriptionQuestion>
                     <choices>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>period </descriptionChoice>
                         </choice>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>aspect </descriptionChoice>
                         </choice>
-                        <choice correct="true">
+                        <choice correct="1">
                             <descriptionChoice>arrangement </descriptionChoice>
                         </choice>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>activity</descriptionChoice>
                         </choice>
                     </choices>
                 </question>
-                <question questionID="05">
+                <question questionID="5">
                     <descriptionQuestion>Students can _______ a lot of information just by taking an active part in class.</descriptionQuestion>
                     <choices>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>concern </descriptionChoice>
                         </choice>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>install</descriptionChoice>
                         </choice>
-                        <choice correct="true">
+                        <choice correct="1">
                             <descriptionChoice>appear</descriptionChoice>
                         </choice>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>memorize</descriptionChoice>
                         </choice>
                     </choices>
                 </question>
-                <question questionID="07">
+                <question questionID="7">
                     <descriptionQuestion>A few years ago, a fire _____ much of an overcrowed part of the city.</descriptionQuestion>
                     <choices>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>battled  </descriptionChoice>
                         </choice>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>devastated  </descriptionChoice>
                         </choice>
-                        <choice correct="true">
+                        <choice correct="1">
                             <descriptionChoice>mopped </descriptionChoice>
                         </choice>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>developed </descriptionChoice>
                         </choice>
                     </choices>
                 </question>
-                <question questionID="08">
+                <question questionID="8">
                     <descriptionQuestion>I have learned a lot about the value of labour form my _______ at home.</descriptionQuestion>
                     <choices>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>credit  </descriptionChoice>
                         </choice>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>energy  </descriptionChoice>
                         </choice>
-                        <choice correct="true">
+                        <choice correct="1">
                             <descriptionChoice>chores  </descriptionChoice>
                         </choice>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>pot plants</descriptionChoice>
                         </choice>
                     </choices>
@@ -129,23 +129,23 @@
             </questions>
         </quiz>
 
-        <quiz quizID="03" staffID="03" is_closed="0">
+        <quiz quizID="3" staffID="3" is_closed="">
             <descriptionQuiz>English Quiz 2</descriptionQuiz>
             <time>60</time>
             <questions>
-                <question questionID="09">
+                <question questionID="9">
                     <descriptionQuestion>Although he tried to hide it, it was ______that Peter didn’t like his birthday present.</descriptionQuestion>
                     <choices>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>foolish</descriptionChoice>
                         </choice>
-                        <choice correct="true">
+                        <choice correct="1">
                             <descriptionChoice>basic</descriptionChoice>
                         </choice>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>obvious</descriptionChoice>
                         </choice>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>vigorous</descriptionChoice>
                         </choice>
                     </choices>
@@ -153,16 +153,16 @@
                 <question questionID="10">
                     <descriptionQuestion>Environemental groups try to stop farmers from using harmful ________ on their crops.</descriptionQuestion>
                     <choices>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>economy</descriptionChoice>
                         </choice>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>agriculate</descriptionChoice>
                         </choice>
-                        <choice correct="true">
+                        <choice correct="1">
                             <descriptionChoice>investments</descriptionChoice>
                         </choice>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>chemicals</descriptionChoice>
                         </choice>
                     </choices>
@@ -170,16 +170,16 @@
                 <question questionID="11">
                     <descriptionQuestion>If you ______ too much on study, you will get tired and stressed.</descriptionQuestion>
                     <choices>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>concentrate</descriptionChoice>
                         </choice>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>develop</descriptionChoice>
                         </choice>
-                        <choice correct="true">
+                        <choice correct="1">
                             <descriptionChoice>organize</descriptionChoice>
                         </choice>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>complain</descriptionChoice>
                         </choice>
                     </choices>
@@ -187,16 +187,16 @@
                 <question questionID="12">
                     <descriptionQuestion>Good heath and methods of study are very necessary, or _______ for success in college</descriptionQuestion>
                     <choices>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>avaible</descriptionChoice>
                         </choice>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>dependable</descriptionChoice>
                         </choice>
-                        <choice correct="true">
+                        <choice correct="1">
                             <descriptionChoice>essential</descriptionChoice>
                         </choice>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>efficicient</descriptionChoice>
                         </choice>
                     </choices>
@@ -204,16 +204,16 @@
                 <question questionID="13">
                     <descriptionQuestion>In order to _______ their goals in college, students need to invest the maximum amount f time, money, and energy in their studies.</descriptionQuestion>
                     <choices>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>manage</descriptionChoice>
                         </choice>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>catch</descriptionChoice>
                         </choice>
-                        <choice correct="true">
+                        <choice correct="1">
                             <descriptionChoice>establish</descriptionChoice>
                         </choice>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>achieve</descriptionChoice>
                         </choice>
                     </choices>
@@ -221,23 +221,23 @@
             </questions>
         </quiz>
 
-        <quiz quizID="04" staffID="05" is_closed="1">
+        <quiz quizID="4" staffID="5" is_closed="1">
             <descriptionQuiz>English Quiz 3</descriptionQuiz>
             <time>60</time>
             <questions>
                 <question questionID="14">
                     <descriptionQuestion>Parents have great hopes of great ______ when they send their children to school</descriptionQuestion>
                     <choices>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>wishes</descriptionChoice>
                         </choice>
-                        <choice correct="true">
+                        <choice correct="1">
                             <descriptionChoice>obligations</descriptionChoice>
                         </choice>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>ecpectations</descriptionChoice>
                         </choice>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>plans</descriptionChoice>
                         </choice>
                     </choices>
@@ -245,16 +245,16 @@
                 <question questionID="15">
                     <descriptionQuestion>2.	No one ever takes any notices of what I say. They never give ______ to what I say</descriptionQuestion>
                     <choices>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>reply</descriptionChoice>
                         </choice>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>opinion</descriptionChoice>
                         </choice>
-                        <choice correct="true">
+                        <choice correct="1">
                             <descriptionChoice>attention </descriptionChoice>
                         </choice>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>support</descriptionChoice>
                         </choice>
                     </choices>
@@ -262,16 +262,16 @@
                 <question questionID="16">
                     <descriptionQuestion>She has changed so much that I didn’t _______ her right away.</descriptionQuestion>
                     <choices>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>admit </descriptionChoice>
                         </choice>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>recognize</descriptionChoice>
                         </choice>
-                        <choice correct="true">
+                        <choice correct="1">
                             <descriptionChoice>know</descriptionChoice>
                         </choice>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>believe</descriptionChoice>
                         </choice>
                     </choices>
@@ -279,16 +279,16 @@
                 <question questionID="17">
                     <descriptionQuestion>After graduation, she found _______ with a local finance company</descriptionQuestion>
                     <choices>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>career</descriptionChoice>
                         </choice>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>workplace</descriptionChoice>
                         </choice>
-                        <choice correct="true">
+                        <choice correct="1">
                             <descriptionChoice>service</descriptionChoice>
                         </choice>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>employment</descriptionChoice>
                         </choice>
                     </choices>
@@ -296,16 +296,16 @@
                 <question questionID="18">
                     <descriptionQuestion>In order to _______ their goals in college, students need to invest the maximum amount f time, money, and energy in their studies.</descriptionQuestion>
                     <choices>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>manage</descriptionChoice>
                         </choice>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>catch</descriptionChoice>
                         </choice>
-                        <choice correct="true">
+                        <choice correct="1">
                             <descriptionChoice>establish</descriptionChoice>
                         </choice>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>achieve</descriptionChoice>
                         </choice>
                     </choices>
@@ -313,23 +313,23 @@
             </questions>
         </quiz>
 
-        <quiz quizID="05" staffID="09" is_closed="1">
+        <quiz quizID="5" staffID="9" is_closed="1">
             <descriptionQuiz>Vocabulary Quiz 1</descriptionQuiz>
             <time>60</time>
             <questions>
                 <question questionID="19">
                     <descriptionQuestion>All the students in the school are free to ______ any youth club they wish.</descriptionQuestion>
                     <choices>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>perform </descriptionChoice>
                         </choice>
-                        <choice correct="true">
+                        <choice correct="1">
                             <descriptionChoice>become </descriptionChoice>
                         </choice>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>join </descriptionChoice>
                         </choice>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>participate</descriptionChoice>
                         </choice>
                     </choices>
@@ -337,16 +337,16 @@
                 <question questionID="20">
                     <descriptionQuestion>His ________, has always been to become a movie director. He wants very much to achieve it.</descriptionQuestion>
                     <choices>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>direction </descriptionChoice>
                         </choice>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>ambition</descriptionChoice>
                         </choice>
-                        <choice correct="true">
+                        <choice correct="1">
                             <descriptionChoice>business </descriptionChoice>
                         </choice>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>study</descriptionChoice>
                         </choice>
                     </choices>
@@ -354,16 +354,16 @@
                 <question questionID="21">
                     <descriptionQuestion>All the negative violence on television has had a negative _______ on children</descriptionQuestion>
                     <choices>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>damage</descriptionChoice>
                         </choice>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>progess</descriptionChoice>
                         </choice>
-                        <choice correct="true">
+                        <choice correct="1">
                             <descriptionChoice>process</descriptionChoice>
                         </choice>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>programme</descriptionChoice>
                         </choice>
                     </choices>
@@ -371,16 +371,16 @@
                 <question questionID="22">
                     <descriptionQuestion>My mother ______ for an anvironmental group. She helps raise money to protect wildlife</descriptionQuestion>
                     <choices>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>identifiers</descriptionChoice>
                         </choice>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>encourages</descriptionChoice>
                         </choice>
-                        <choice correct="true">
+                        <choice correct="1">
                             <descriptionChoice>shares</descriptionChoice>
                         </choice>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>voluntes</descriptionChoice>
                         </choice>
                     </choices>
@@ -388,16 +388,16 @@
                 <question questionID="23">
                     <descriptionQuestion>Students can _______ a lot of information just by attending claas and taking good notes of the lectures</descriptionQuestion>
                     <choices>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>absorb</descriptionChoice>
                         </choice>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>provide</descriptionChoice>
                         </choice>
-                        <choice correct="true">
+                        <choice correct="1">
                             <descriptionChoice>transmit</descriptionChoice>
                         </choice>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>read</descriptionChoice>
                         </choice>
                     </choices>
@@ -405,23 +405,23 @@
             </questions>
         </quiz>
 
-        <quiz quizID="06" staffID="11" is_closed="1">
+        <quiz quizID="6" staffID="11" is_closed="1">
             <descriptionQuiz>Vocabulary Quiz 2</descriptionQuiz>
             <time>60</time>
             <questions>
                 <question questionID="24">
                     <descriptionQuestion>All the students in the school are free to ______ any youth club they wish.</descriptionQuestion>
                     <choices>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>perform </descriptionChoice>
                         </choice>
-                        <choice correct="true">
+                        <choice correct="1">
                             <descriptionChoice>become </descriptionChoice>
                         </choice>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>join </descriptionChoice>
                         </choice>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>participate</descriptionChoice>
                         </choice>
                     </choices>
@@ -429,16 +429,16 @@
                 <question questionID="25">
                     <descriptionQuestion>His ________, has always been to become a movie director. He wants very much to achieve it.</descriptionQuestion>
                     <choices>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>direction </descriptionChoice>
                         </choice>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>ambition</descriptionChoice>
                         </choice>
-                        <choice correct="true">
+                        <choice correct="1">
                             <descriptionChoice>business </descriptionChoice>
                         </choice>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>study</descriptionChoice>
                         </choice>
                     </choices>
@@ -446,16 +446,16 @@
                 <question questionID="26">
                     <descriptionQuestion>All the negative violence on television has had a negative _______ on children</descriptionQuestion>
                     <choices>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>damage</descriptionChoice>
                         </choice>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>progess</descriptionChoice>
                         </choice>
-                        <choice correct="true">
+                        <choice correct="1">
                             <descriptionChoice>process</descriptionChoice>
                         </choice>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>programme</descriptionChoice>
                         </choice>
                     </choices>
@@ -463,16 +463,16 @@
                 <question questionID="27">
                     <descriptionQuestion>My mother ______ for an anvironmental group. She helps raise money to protect wildlife</descriptionQuestion>
                     <choices>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>identifiers</descriptionChoice>
                         </choice>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>encourages</descriptionChoice>
                         </choice>
-                        <choice correct="true">
+                        <choice correct="1">
                             <descriptionChoice>shares</descriptionChoice>
                         </choice>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>voluntes</descriptionChoice>
                         </choice>
                     </choices>
@@ -480,16 +480,16 @@
                 <question questionID="28">
                     <descriptionQuestion>Students can _______ a lot of information just by attending claas and taking good notes of the lectures</descriptionQuestion>
                     <choices>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>absorb</descriptionChoice>
                         </choice>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>provide</descriptionChoice>
                         </choice>
-                        <choice correct="true">
+                        <choice correct="1">
                             <descriptionChoice>transmit</descriptionChoice>
                         </choice>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>read</descriptionChoice>
                         </choice>
                     </choices>
@@ -497,23 +497,23 @@
             </questions>
         </quiz>
 
-        <quiz quizID="07" staffID="12" is_closed="1">
+        <quiz quizID="7" staffID="12" is_closed="1">
             <descriptionQuiz>Vocabulary Quiz 3</descriptionQuiz>
             <time>60</time>
             <questions>
                 <question questionID="29">
                     <descriptionQuestion>I was talking to my aunt when suddenly my cousin Geroge ______ in on our conversation</descriptionQuestion>
                     <choices>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>interrupted</descriptionChoice>
                         </choice>
-                        <choice correct="true">
+                        <choice correct="1">
                             <descriptionChoice>broke  </descriptionChoice>
                         </choice>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>went  </descriptionChoice>
                         </choice>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>intervened</descriptionChoice>
                         </choice>
                     </choices>
@@ -521,16 +521,16 @@
                 <question questionID="30">
                     <descriptionQuestion>Hello, is Bill there?”.Yes, ________a minute, and I’ll get him</descriptionQuestion>
                     <choices>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>hang on  </descriptionChoice>
                         </choice>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>hang up </descriptionChoice>
                         </choice>
-                        <choice correct="true">
+                        <choice correct="1">
                             <descriptionChoice>hold on </descriptionChoice>
                         </choice>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>A and C are correct</descriptionChoice>
                         </choice>
                     </choices>
@@ -538,16 +538,16 @@
                 <question questionID="31">
                     <descriptionQuestion>After ten times, the students _____in their quizzes to the instructor</descriptionQuestion>
                     <choices>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>gave</descriptionChoice>
                         </choice>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>had</descriptionChoice>
                         </choice>
-                        <choice correct="true">
+                        <choice correct="1">
                             <descriptionChoice>handle</descriptionChoice>
                         </choice>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>handheld</descriptionChoice>
                         </choice>
                     </choices>
@@ -555,16 +555,16 @@
                 <question questionID="32">
                     <descriptionQuestion>“Have you_______this contract yet?” “Not yet. I’ll try to read this weekend”</descriptionQuestion>
                     <choices>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>looked over</descriptionChoice>
                         </choice>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>looked into</descriptionChoice>
                         </choice>
-                        <choice correct="true">
+                        <choice correct="1">
                             <descriptionChoice>looked up</descriptionChoice>
                         </choice>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>looked out</descriptionChoice>
                         </choice>
                     </choices>
@@ -572,16 +572,16 @@
                 <question questionID="33">
                     <descriptionQuestion>We didn’t like John when we first met him, but he has turned_______ to be a good friend to us.</descriptionQuestion>
                     <choices>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>down</descriptionChoice>
                         </choice>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>up</descriptionChoice>
                         </choice>
-                        <choice correct="true">
+                        <choice correct="1">
                             <descriptionChoice>on</descriptionChoice>
                         </choice>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>out</descriptionChoice>
                         </choice>
                     </choices>
@@ -589,23 +589,23 @@
             </questions>
         </quiz>
 
-        <quiz quizID="08" staffID="14" is_closed="0">
+        <quiz quizID="8" staffID="14" is_closed="">
             <descriptionQuiz>Grammar Quiz 1</descriptionQuiz>
             <time>60</time>
             <questions>
                 <question questionID="34">
                     <descriptionQuestion>This is Bob speaking. I need my pocket calculator. Can I have it back tomorrow? I can’t ________ it.</descriptionQuestion>
                     <choices>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>interrupted</descriptionChoice>
                         </choice>
-                        <choice correct="true">
+                        <choice correct="1">
                             <descriptionChoice>broke  </descriptionChoice>
                         </choice>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>went  </descriptionChoice>
                         </choice>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>intervened</descriptionChoice>
                         </choice>
                     </choices>
@@ -613,16 +613,16 @@
                 <question questionID="35">
                     <descriptionQuestion>“That old paint that you have stored in your garage is a fine hazard”. “You’re right. I should ______it”</descriptionQuestion>
                     <choices>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>hang on  </descriptionChoice>
                         </choice>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>hang up </descriptionChoice>
                         </choice>
-                        <choice correct="true">
+                        <choice correct="1">
                             <descriptionChoice>hold on </descriptionChoice>
                         </choice>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>A and C are correct</descriptionChoice>
                         </choice>
                     </choices>
@@ -630,16 +630,16 @@
                 <question questionID="36">
                     <descriptionQuestion>“Can you read that sign?” “Just a minute. Let me ______ my glasses”.</descriptionQuestion>
                     <choices>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>gave</descriptionChoice>
                         </choice>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>had</descriptionChoice>
                         </choice>
-                        <choice correct="true">
+                        <choice correct="1">
                             <descriptionChoice>handle</descriptionChoice>
                         </choice>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>handheld</descriptionChoice>
                         </choice>
                     </choices>
@@ -647,16 +647,16 @@
                 <question questionID="37">
                     <descriptionQuestion>“What ______ yout flight?” “There was a big snowstorm in Denver that delayed a lot of flights”.</descriptionQuestion>
                     <choices>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>looked over</descriptionChoice>
                         </choice>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>looked into</descriptionChoice>
                         </choice>
-                        <choice correct="true">
+                        <choice correct="1">
                             <descriptionChoice>looked up</descriptionChoice>
                         </choice>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>looked out</descriptionChoice>
                         </choice>
                     </choices>
@@ -664,16 +664,16 @@
                 <question questionID="38">
                     <descriptionQuestion>Eve was born in the South, but she grew ________ in the North.</descriptionQuestion>
                     <choices>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>down</descriptionChoice>
                         </choice>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>up</descriptionChoice>
                         </choice>
-                        <choice correct="true">
+                        <choice correct="1">
                             <descriptionChoice>on</descriptionChoice>
                         </choice>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>out</descriptionChoice>
                         </choice>
                     </choices>
@@ -681,23 +681,23 @@
             </questions>
         </quiz>
 
-        <quiz quizID="09" staffID="16" is_closed="1">
+        <quiz quizID="9" staffID="16" is_closed="1">
             <descriptionQuiz>Grammar Quiz 2</descriptionQuiz>
             <time>60</time>
             <questions>
                 <question questionID="39">
                     <descriptionQuestion>This is Bob speaking. I need my pocket calculator. Can I have it back tomorrow? I can’t ________ it.</descriptionQuestion>
                     <choices>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>interrupted</descriptionChoice>
                         </choice>
-                        <choice correct="true">
+                        <choice correct="1">
                             <descriptionChoice>broke  </descriptionChoice>
                         </choice>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>went  </descriptionChoice>
                         </choice>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>intervened</descriptionChoice>
                         </choice>
                     </choices>
@@ -705,16 +705,16 @@
                 <question questionID="40">
                     <descriptionQuestion>“That old paint that you have stored in your garage is a fine hazard”. “You’re right. I should ______it”</descriptionQuestion>
                     <choices>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>hang on  </descriptionChoice>
                         </choice>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>hang up </descriptionChoice>
                         </choice>
-                        <choice correct="true">
+                        <choice correct="1">
                             <descriptionChoice>hold on </descriptionChoice>
                         </choice>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>A and C are correct</descriptionChoice>
                         </choice>
                     </choices>
@@ -722,16 +722,16 @@
                 <question questionID="41">
                     <descriptionQuestion>“Can you read that sign?” “Just a minute. Let me ______ my glasses”.</descriptionQuestion>
                     <choices>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>gave</descriptionChoice>
                         </choice>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>had</descriptionChoice>
                         </choice>
-                        <choice correct="true">
+                        <choice correct="1">
                             <descriptionChoice>handle</descriptionChoice>
                         </choice>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>handheld</descriptionChoice>
                         </choice>
                     </choices>
@@ -739,16 +739,16 @@
                 <question questionID="42">
                     <descriptionQuestion>“What ______ yout flight?” “There was a big snowstorm in Denver that delayed a lot of flights”.</descriptionQuestion>
                     <choices>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>looked over</descriptionChoice>
                         </choice>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>looked into</descriptionChoice>
                         </choice>
-                        <choice correct="true">
+                        <choice correct="1">
                             <descriptionChoice>looked up</descriptionChoice>
                         </choice>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>looked out</descriptionChoice>
                         </choice>
                     </choices>
@@ -756,16 +756,16 @@
                 <question questionID="43">
                     <descriptionQuestion>Eve was born in the South, but she grew ________ in the North.</descriptionQuestion>
                     <choices>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>down</descriptionChoice>
                         </choice>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>up</descriptionChoice>
                         </choice>
-                        <choice correct="true">
+                        <choice correct="1">
                             <descriptionChoice>on</descriptionChoice>
                         </choice>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>out</descriptionChoice>
                         </choice>
                     </choices>
@@ -780,16 +780,16 @@
                 <question questionID="44">
                     <descriptionQuestion>How do you open a program such as a Microsoft Word when there are no icons on the desktop?</descriptionQuestion>
                     <choices>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>Right click to reveal all icons.</descriptionChoice>
                         </choice>
-                        <choice correct="true">
+                        <choice correct="1">
                             <descriptionChoice>Restart the computer.  </descriptionChoice>
                         </choice>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>It is not possible to open program if no icons are on the desktop </descriptionChoice>
                         </choice>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>Cick the start button and select program from the menu.</descriptionChoice>
                         </choice>
                     </choices>
@@ -797,16 +797,16 @@
                 <question questionID="45">
                     <descriptionQuestion>How do you minimize or maximize a program in Windows?</descriptionQuestion>
                     <choices>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>Right click on the mouse</descriptionChoice>
                         </choice>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>Go to "File" and select minimize or maximize </descriptionChoice>
                         </choice>
-                        <choice correct="true">
+                        <choice correct="1">
                             <descriptionChoice>Top right corner, dash or square.</descriptionChoice>
                         </choice>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>This function can not be done.</descriptionChoice>
                         </choice>
                     </choices>
@@ -814,16 +814,16 @@
                 <question questionID="46">
                     <descriptionQuestion>How do you close a window on your desktop?</descriptionQuestion>
                     <choices>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>Go to "File" and select "Close"</descriptionChoice>
                         </choice>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>Press the "Ctrl" key on the keyboard</descriptionChoice>
                         </choice>
-                        <choice correct="true">
+                        <choice correct="1">
                             <descriptionChoice>Use the mouse to press the button with the "X" in it at the top right corner of the screen</descriptionChoice>
                         </choice>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>Use the mouse to press the button with the _ in it at the top right corner of the screen</descriptionChoice>
                         </choice>
                     </choices>
@@ -831,16 +831,16 @@
                 <question questionID="47">
                     <descriptionQuestion>A word processing file can be attached to an e-mail message?</descriptionQuestion>
                     <choices>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>Yes</descriptionChoice>
                         </choice>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>No</descriptionChoice>
                         </choice>
-                        <choice correct="true">
+                        <choice correct="1">
                             <descriptionChoice>Depends on what type of file.</descriptionChoice>
                         </choice>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>This function is not possible.</descriptionChoice>
                         </choice>
                     </choices>
@@ -848,16 +848,16 @@
                 <question questionID="48">
                     <descriptionQuestion>Which of the following is an example of an e-mail address?</descriptionQuestion>
                     <choices>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>www.google.com</descriptionChoice>
                         </choice>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>jeandoe.gmail.com</descriptionChoice>
                         </choice>
-                        <choice correct="true">
+                        <choice correct="1">
                             <descriptionChoice>Bob Smith@yahoo.com</descriptionChoice>
                         </choice>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>johndoe@cincinnatilibrary.org</descriptionChoice>
                         </choice>
                     </choices>
@@ -872,16 +872,16 @@
                 <question questionID="49">
                     <descriptionQuestion>How do you open a program such as a Microsoft Word when there are no icons on the desktop?</descriptionQuestion>
                     <choices>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>Right click to reveal all icons.</descriptionChoice>
                         </choice>
-                        <choice correct="true">
+                        <choice correct="1">
                             <descriptionChoice>Restart the computer.  </descriptionChoice>
                         </choice>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>It is not possible to open program if no icons are on the desktop </descriptionChoice>
                         </choice>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>Cick the start button and select program from the menu.</descriptionChoice>
                         </choice>
                     </choices>
@@ -889,16 +889,16 @@
                 <question questionID="50">
                     <descriptionQuestion>How do you minimize or maximize a program in Windows?</descriptionQuestion>
                     <choices>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>Right click on the mouse</descriptionChoice>
                         </choice>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>Go to "File" and select minimize or maximize </descriptionChoice>
                         </choice>
-                        <choice correct="true">
+                        <choice correct="1">
                             <descriptionChoice>Top right corner, dash or square.</descriptionChoice>
                         </choice>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>This function can not be done.</descriptionChoice>
                         </choice>
                     </choices>
@@ -906,16 +906,16 @@
                 <question questionID="51">
                     <descriptionQuestion>How do you close a window on your desktop?</descriptionQuestion>
                     <choices>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>Go to "File" and select "Close"</descriptionChoice>
                         </choice>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>Press the "Ctrl" key on the keyboard</descriptionChoice>
                         </choice>
-                        <choice correct="true">
+                        <choice correct="1">
                             <descriptionChoice>Use the mouse to press the button with the "X" in it at the top right corner of the screen</descriptionChoice>
                         </choice>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>Use the mouse to press the button with the _ in it at the top right corner of the screen</descriptionChoice>
                         </choice>
                     </choices>
@@ -923,16 +923,16 @@
                 <question questionID="52">
                     <descriptionQuestion>A word processing file can be attached to an e-mail message?</descriptionQuestion>
                     <choices>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>Yes</descriptionChoice>
                         </choice>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>No</descriptionChoice>
                         </choice>
-                        <choice correct="true">
+                        <choice correct="1">
                             <descriptionChoice>Depends on what type of file.</descriptionChoice>
                         </choice>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>This function is not possible.</descriptionChoice>
                         </choice>
                     </choices>
@@ -940,16 +940,16 @@
                 <question questionID="53">
                     <descriptionQuestion>Which of the following is an example of an e-mail address?</descriptionQuestion>
                     <choices>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>www.google.com</descriptionChoice>
                         </choice>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>jeandoe.gmail.com</descriptionChoice>
                         </choice>
-                        <choice correct="true">
+                        <choice correct="1">
                             <descriptionChoice>Bob Smith@yahoo.com</descriptionChoice>
                         </choice>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>johndoe@cincinnatilibrary.org</descriptionChoice>
                         </choice>
                     </choices>
@@ -964,16 +964,16 @@
                 <question questionID="54">
                     <descriptionQuestion>How do you open a program such as a Microsoft Word when there are no icons on the desktop?</descriptionQuestion>
                     <choices>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>Right click to reveal all icons.</descriptionChoice>
                         </choice>
-                        <choice correct="true">
+                        <choice correct="1">
                             <descriptionChoice>Restart the computer.  </descriptionChoice>
                         </choice>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>It is not possible to open program if no icons are on the desktop </descriptionChoice>
                         </choice>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>Cick the start button and select program from the menu.</descriptionChoice>
                         </choice>
                     </choices>
@@ -981,16 +981,16 @@
                 <question questionID="55">
                     <descriptionQuestion>How do you minimize or maximize a program in Windows?</descriptionQuestion>
                     <choices>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>Right click on the mouse</descriptionChoice>
                         </choice>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>Go to "File" and select minimize or maximize </descriptionChoice>
                         </choice>
-                        <choice correct="true">
+                        <choice correct="1">
                             <descriptionChoice>Top right corner, dash or square.</descriptionChoice>
                         </choice>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>This function can not be done.</descriptionChoice>
                         </choice>
                     </choices>
@@ -998,16 +998,16 @@
                 <question questionID="56">
                     <descriptionQuestion>How do you close a window on your desktop?</descriptionQuestion>
                     <choices>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>Go to "File" and select "Close"</descriptionChoice>
                         </choice>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>Press the "Ctrl" key on the keyboard</descriptionChoice>
                         </choice>
-                        <choice correct="true">
+                        <choice correct="1">
                             <descriptionChoice>Use the mouse to press the button with the "X" in it at the top right corner of the screen</descriptionChoice>
                         </choice>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>Use the mouse to press the button with the _ in it at the top right corner of the screen</descriptionChoice>
                         </choice>
                     </choices>
@@ -1015,16 +1015,16 @@
                 <question questionID="57">
                     <descriptionQuestion>A word processing file can be attached to an e-mail message?</descriptionQuestion>
                     <choices>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>Yes</descriptionChoice>
                         </choice>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>No</descriptionChoice>
                         </choice>
-                        <choice correct="true">
+                        <choice correct="1">
                             <descriptionChoice>Depends on what type of file.</descriptionChoice>
                         </choice>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>This function is not possible.</descriptionChoice>
                         </choice>
                     </choices>
@@ -1032,16 +1032,16 @@
                 <question questionID="58">
                     <descriptionQuestion>Which of the following is an example of an e-mail address?</descriptionQuestion>
                     <choices>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>www.google.com</descriptionChoice>
                         </choice>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>jeandoe.gmail.com</descriptionChoice>
                         </choice>
-                        <choice correct="true">
+                        <choice correct="1">
                             <descriptionChoice>Bob Smith@yahoo.com</descriptionChoice>
                         </choice>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>johndoe@cincinnatilibrary.org</descriptionChoice>
                         </choice>
                     </choices>
@@ -1049,23 +1049,23 @@
             </questions>
         </quiz>
 
-        <quiz quizID="13" staffID="19" is_closed="0">
+        <quiz quizID="13" staffID="19" is_closed="">
             <descriptionQuiz>Basic Web Quiz 1</descriptionQuiz>
             <time>15</time>
             <questions>
                 <question questionID="59">
                     <descriptionQuestion>Which character entity would you use to display extra spaces on a webpage?</descriptionQuestion>
                     <choices>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>nbsp;</descriptionChoice>
                         </choice>
-                        <choice correct="true">
+                        <choice correct="1">
                             <descriptionChoice>gt;</descriptionChoice>
                         </choice>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>lt;</descriptionChoice>
                         </choice>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>reg;.</descriptionChoice>
                         </choice>
                     </choices>
@@ -1073,16 +1073,16 @@
                 <question questionID="55">
                     <descriptionQuestion>How do you minimize or maximize a program in Windows?</descriptionQuestion>
                     <choices>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>Right click on the mouse</descriptionChoice>
                         </choice>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>Go to "File" and select minimize or maximize </descriptionChoice>
                         </choice>
-                        <choice correct="true">
+                        <choice correct="1">
                             <descriptionChoice>Top right corner, dash or square.</descriptionChoice>
                         </choice>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>This function can not be done.</descriptionChoice>
                         </choice>
                     </choices>
@@ -1090,16 +1090,16 @@
                 <question questionID="56">
                     <descriptionQuestion>How do you close a window on your desktop?</descriptionQuestion>
                     <choices>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>Go to "File" and select "Close"</descriptionChoice>
                         </choice>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>Press the "Ctrl" key on the keyboard</descriptionChoice>
                         </choice>
-                        <choice correct="true">
+                        <choice correct="1">
                             <descriptionChoice>Use the mouse to press the button with the "X" in it at the top right corner of the screen</descriptionChoice>
                         </choice>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>Use the mouse to press the button with the _ in it at the top right corner of the screen</descriptionChoice>
                         </choice>
                     </choices>
@@ -1107,16 +1107,16 @@
                 <question questionID="57">
                     <descriptionQuestion>A word processing file can be attached to an e-mail message?</descriptionQuestion>
                     <choices>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>Yes</descriptionChoice>
                         </choice>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>No</descriptionChoice>
                         </choice>
-                        <choice correct="true">
+                        <choice correct="1">
                             <descriptionChoice>Depends on what type of file.</descriptionChoice>
                         </choice>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>This function is not possible.</descriptionChoice>
                         </choice>
                     </choices>
@@ -1124,16 +1124,16 @@
                 <question questionID="58">
                     <descriptionQuestion>Which of the following is an example of an e-mail address?</descriptionQuestion>
                     <choices>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>www.google.com</descriptionChoice>
                         </choice>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>jeandoe.gmail.com</descriptionChoice>
                         </choice>
-                        <choice correct="true">
+                        <choice correct="1">
                             <descriptionChoice>Bob Smith@yahoo.com</descriptionChoice>
                         </choice>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>johndoe@cincinnatilibrary.org</descriptionChoice>
                         </choice>
                     </choices>
@@ -1141,23 +1141,23 @@
             </questions>
         </quiz>
 
-        <quiz quizID="14" staffID="20" is_closed="0">
+        <quiz quizID="14" staffID="20" is_closed="">
             <descriptionQuiz>Basic Web Quiz 2</descriptionQuiz>
             <time>15</time>
             <questions>
                 <question questionID="60">
                     <descriptionQuestion>Which character entity would you use to display extra spaces on a webpage?</descriptionQuestion>
                     <choices>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>nbsp;</descriptionChoice>
                         </choice>
-                        <choice correct="true">
+                        <choice correct="1">
                             <descriptionChoice> gt;</descriptionChoice>
                         </choice>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>lt;</descriptionChoice>
                         </choice>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>reg;.</descriptionChoice>
                         </choice>
                     </choices>
@@ -1165,16 +1165,16 @@
                 <question questionID="61">
                     <descriptionQuestion>How do you minimize or maximize a program in Windows?</descriptionQuestion>
                     <choices>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>Right click on the mouse</descriptionChoice>
                         </choice>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>Go to "File" and select minimize or maximize </descriptionChoice>
                         </choice>
-                        <choice correct="true">
+                        <choice correct="1">
                             <descriptionChoice>Top right corner, dash or square.</descriptionChoice>
                         </choice>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>This function can not be done.</descriptionChoice>
                         </choice>
                     </choices>
@@ -1182,16 +1182,16 @@
                 <question questionID="62">
                     <descriptionQuestion>How do you close a window on your desktop?</descriptionQuestion>
                     <choices>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>Go to "File" and select "Close"</descriptionChoice>
                         </choice>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>Press the "Ctrl" key on the keyboard</descriptionChoice>
                         </choice>
-                        <choice correct="true">
+                        <choice correct="1">
                             <descriptionChoice>Use the mouse to press the button with the "X" in it at the top right corner of the screen</descriptionChoice>
                         </choice>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>Use the mouse to press the button with the _ in it at the top right corner of the screen</descriptionChoice>
                         </choice>
                     </choices>
@@ -1199,16 +1199,16 @@
                 <question questionID="63">
                     <descriptionQuestion>A word processing file can be attached to an e-mail message?</descriptionQuestion>
                     <choices>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>Yes</descriptionChoice>
                         </choice>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>No</descriptionChoice>
                         </choice>
-                        <choice correct="true">
+                        <choice correct="1">
                             <descriptionChoice>Depends on what type of file.</descriptionChoice>
                         </choice>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>This function is not possible.</descriptionChoice>
                         </choice>
                     </choices>
@@ -1216,16 +1216,16 @@
                 <question questionID="64">
                     <descriptionQuestion>Which of the following is an example of an e-mail address?</descriptionQuestion>
                     <choices>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>www.google.com</descriptionChoice>
                         </choice>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>jeandoe.gmail.com</descriptionChoice>
                         </choice>
-                        <choice correct="true">
+                        <choice correct="1">
                             <descriptionChoice>Bob Smith@yahoo.com</descriptionChoice>
                         </choice>
-                        <choice correct="false">
+                        <choice correct="0">
                             <descriptionChoice>johndoe@cincinnatilibrary.org</descriptionChoice>
                         </choice>
                     </choices>

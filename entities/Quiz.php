@@ -68,11 +68,12 @@ class Quiz
         return $this->_time;
     }
     
-    public function setQuestion($question){
+    public function setQuestions($question)
+    {
         $this->_questions = $question;
     }
     
-    public function getQuestion()
+    public function getQuestions()
     {
         return $this->_questions;
     }
