@@ -9,7 +9,7 @@ class Quiz
     private $_time;
     private $_questions;
     
-    public function __construct($quizID = null, $staffID = null, $is_closed = null, $descriptionQuiz = null, $time = null, $questions = array()) {
+    public function __construct($quizID = null, $staffID = null, $is_closed = QUIZ_OPEN, $descriptionQuiz = null, $time = null, $questions = array()) {
         $this->_quizID = $quizID;
         $this->_staffID = $staffID;
         $this->_is_closed = $is_closed;
