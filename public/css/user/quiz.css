@@ -1,0 +1,34 @@
+#questions{
+    padding: 10px;
+}
+
+#questions table{
+    margin: 10px auto;
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+    width: 600px;
+}
+
+#questions table th,
+#questions table td{
+    padding: 7px;
+    border: 1px solid #ccc;
+}
+#questions table th{
+    font-weight: normal;
+    text-align: left;
+}
+#questions table td:first-child{
+    width: 50px;
+    text-align: center;
+}
+#questions table td:nth-child(3){
+    width: 50px;
+    text-align: center;
+}
+#questions input[type=radio]{
+    width: 100%;
+    display: inline-block;
+    cursor: pointer;
+}
+
