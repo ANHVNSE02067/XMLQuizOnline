@@ -1,15 +1,16 @@
-<form id="frmStaffFilter">
+<form id="frmQuizFilter">
 <div>
-    <input id="staffFilter" type="text" placeholder="filter..">
+    <input id="quizFilter" type="text" placeholder="filter..">
 </div>
 </form>
-<table id="listStaff" class="table-list" border="1">
+<table id="listQuiz" class="table-list" border="1">
     <thead>
         <tr>
             <th>Quiz ID</th>
             <th>Staff ID</th>
             <th>Quiz Title</th>
             <th>Time</th>
+            <th>Status</th>
             <th>Action</th>
         </tr>
     </thead>
@@ -20,6 +21,7 @@
         <td><?php echo $quiz->getStaffID(); ?></td>
         <td><?php echo $quiz->getDescriptionQuiz(); ?></td>
         <td><?php echo $quiz->getTime(); ?></td>
+        <td><?php echo ($quiz->getIsClosed() == QUIZ_CLOSED)?"Closed":"Opening" ?></td>
             <td class="col-action">
                 <button type="button" class="btn-edit">Edit</button>
                 <button type="button" class="btn-delete">Delete</button>
