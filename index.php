@@ -6,7 +6,7 @@ if (!Auth::isUserAuth()) {
 
 loadModel('QuizModel.php');
 $quizModel = new QuizModel;
-$quizzes = $quizModel->getQuizList();
+$quizzes = $quizModel->getOpenQuizList();
 
 // Render View
 $view = new View();
