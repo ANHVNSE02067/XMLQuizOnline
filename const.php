@@ -8,3 +8,4 @@ define('QUIZ_CLOSED', 1);
 define('QUIZ_OPEN', 0);
 define('CHOICE_TRUE', 1);
 define('CHOICE_FALSE', 0);
+define('SYN_TIME_GAP', 3); // There will be 3 seconds plus for load quiz and submit quiz

@@ -84,3 +84,22 @@ h2.quizHeader .quizTime #time{
 .choice-desc, .choice-letter{
     cursor: pointer;
 }
+
+.choice.correct{
+    background-color: green;
+    color: white;
+}
+
+.choice.wrong{
+    background-color: red;
+    color: white;
+}
+
+.choice.answer{
+    background-color: lightgreen;
+    color: white;
+}
+
+.score{
+    color: red;
+}

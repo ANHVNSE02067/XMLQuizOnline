@@ -14,6 +14,7 @@ $quiz = $quizModel->getQuizById($quizId);
 if (!$quiz) {
     die('Invalid request!');
 }
+Session::set('quiz'.$quiz->getQuizID(), time());
 // Render View
 $view = new View();
 $view->setLayout('user/layout.php');

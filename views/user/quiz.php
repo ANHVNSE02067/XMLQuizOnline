@@ -4,7 +4,8 @@
 <span class="quizTime">Time: <span id="time">59:59</span></span>
 <input type="hidden" id="timeinsec" value="<?php echo intval($quiz->getTime() * 60); ?>">
 </h2>
-<form id="questions">
+<form id="questions" method="POST" action="quiz_result.php">
+<input type="hidden" name="quizId" value="<?php echo $quiz->getQuizID(); ?>">
 <?php $questions = $quiz->getQuestions();
 for ($i = 1; $i < count($questions); $i++) { ?>
 <table id="ques<?php echo $questions[$i]->getQuestionID(); ?>" class="question" border="1">
@@ -13,10 +14,10 @@ for ($i = 1; $i < count($questions); $i++) { ?>
 </tr>
 <?php $choices = $questions[$i]->getChoices(); 
 for($j = 0; $j < count($choices); $j++) { ?>
-<tr class="choice a">
+<tr class="choice">
 <td class="choice-letter"><?php echo chr(ord('A') + $j); ?>. </td>
 <td class="choice-desc"><?php echo $choices[$j]->getDescriptionChoice(); ?></td>
-<td class="choice-select"><input type="radio" name="ques<?php echo $questions[$i]->getQuestionID(); ?>" value="<?php echo $j; ?>"></td>
+<td class="choice-select"><input type="radio" name="question[<?php echo $questions[$i]->getQuestionID(); ?>]" value="<?php echo $j; ?>"></td>
 </tr>
 <?php } ?>
 </table>
