@@ -107,5 +107,27 @@ class UserModel extends Model{
         $maxID = $this->getMaxUserID();
         return $maxID + 1;
     }
+    /* 
+     * Get list of User and ID 
+     */
+    public function getListUser()
+    {
+        $xpath = $this->getXpath();
+        $query = '//user';
+        $elements = $xpath->query($query);// class DOMNodeList
+        if ($elements->length == 0) {
+            return false;
+        }
+        $element = $elements->item(0);
+        $users = array();
+        foreach ($elements as $element) {
+            $user = array (
+                'userID' => intval($element->getAttribute('userID')),
+                'fullname' => $element->getElementsByTagName('fullname')->item(0)->nodeValue
+            );
+            $users[] = $user;
+        }
+        return $users;
+    }
 }
 

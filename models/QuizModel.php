@@ -6,7 +6,7 @@ class QuizModel extends Model
         parent::__construct('Quiz.xml');
     }
     
-    public function getQuizList()
+    public function getOpenQuizList()
     {
         $xpath = $this->getXpath();
         $query = "//quiz";
