@@ -3,7 +3,7 @@ require 'global.php';
 if (!Auth::isUserAuth()) {
     Auth::redirectToUserLoginPage ();
 }
-try{
+try {
     $quizId = Request::get('quizId', null);
     $questions = Request::get('question', null);
     if ($quizId === null || $questions === null) {
@@ -47,6 +47,15 @@ try{
         $resultsQuestions[] = $question;
     }
     $quiz->setQuestions($resultsQuestions);
+    // Save to report
+    $report = new Report();
+    $report->setQuizID($quiz->getQuizID());
+    $report->setUserID(Auth::getUserAuthIdentity()->getUserId());
+    $report->setResult(sprintf('%.1f', $correct*1.0/$total));
+    loadModel('ReportModel.php');
+    $reportModel = new ReportModel();
+    $reportModel->addReport($report);
+
     // Render View
     $view = new View();
     $view->setLayout('user/layout.php');
@@ -60,7 +69,7 @@ try{
     $view->setData('correct', $correct);
     $view->setData('finishTime', $finishTime);
     $view->render();
-} catch(Exception $e){
+} catch(Exception $e) {
     $message = $e->getMessage() . '<br><a href="index.php">Back to home page!</a>';
     // Render error View
     $view = new View();
