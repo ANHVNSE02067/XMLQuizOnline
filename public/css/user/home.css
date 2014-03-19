@@ -1,0 +1,22 @@
+#listQuiz thead {
+    font-weight: bold;
+}
+
+#listQuiz tr td:first-child{
+    width: 70px;
+    text-align: center;
+}
+
+#listQuiz tbody tr:hover{
+    background-color: #CDE4F3;
+    cursor: pointer;
+}
+
+#listQuiz td{
+    padding: 7px;
+}
+
+#listQuiz tr td:last-child{
+    width: 120px;
+    text-align: center;
+}

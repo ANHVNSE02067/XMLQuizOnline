@@ -1,5 +1,9 @@
 <?php if ($this->data['quiz']->getIsClosed() == QUIZ_CLOSED) { echo 'Quiz is Closed!'; } else { $quiz = $this->data['quiz']; ?>
-<h2><?php echo $quiz->getDescriptionQuiz(); ?></h2>
+<h2 class="quizHeader">
+<span class="quizTitle"><?php echo $quiz->getDescriptionQuiz(); ?></span>
+<span class="quizTime">Time: <span id="time">59:59</span></span>
+<input type="hidden" id="timeinsec" value="<?php echo intval($quiz->getTime() * 60); ?>">
+</h2>
 <form id="questions">
 <?php $questions = $quiz->getQuestions();
 for ($i = 1; $i < count($questions); $i++) { ?>
@@ -10,9 +14,9 @@ for ($i = 1; $i < count($questions); $i++) { ?>
 <?php $choices = $questions[$i]->getChoices(); 
 for($j = 0; $j < count($choices); $j++) { ?>
 <tr class="choice a">
-<td><?php echo chr(ord('A') + $j); ?>. </td>
-<td><?php echo $choices[$j]->getDescriptionChoice(); ?></td>
-<td><input type="radio" name="ques<?php echo $questions[$i]->getQuestionID(); ?>" value="<?php echo $j; ?>"></td>
+<td class="choice-letter"><?php echo chr(ord('A') + $j); ?>. </td>
+<td class="choice-desc"><?php echo $choices[$j]->getDescriptionChoice(); ?></td>
+<td class="choice-select"><input type="radio" name="ques<?php echo $questions[$i]->getQuestionID(); ?>" value="<?php echo $j; ?>"></td>
 </tr>
 <?php } ?>
 </table>
