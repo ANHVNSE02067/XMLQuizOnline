@@ -1,3 +1,8 @@
+<form id="frmQuizFilter">
+<div>
+    <input id="quizFilter" type="text" placeholder="Search quiz..">
+</div>
+</form>
 <table id="listQuiz" class="table-list">
     <thead>
         <tr>

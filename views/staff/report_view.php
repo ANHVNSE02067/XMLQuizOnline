@@ -1,3 +1,8 @@
+<form id="frmReportFilter">
+<div>
+    <input id="reportFilter" type="text" placeholder="Search report..">
+</div>
+</form>
 <table id="quizReport" class="table-list">
     <thead>
         <tr>

@@ -1,0 +1,35 @@
+#quizReport thead {
+    font-weight: bold;
+}
+
+#quizReport tr td:first-child{
+    width: 70px;
+    text-align: center;
+}
+
+#quizReport tbody tr:hover{
+    background-color: #CDE4F3;
+    cursor: pointer;
+}
+
+#quizReport td{
+    padding: 7px;
+}
+
+#quizReport tr td:last-child{
+    width: 120px;
+    text-align: center;
+}
+
+#frmReportFilter{
+    width: 980px;
+    margin: 10px auto;
+}
+
+#frmReportFilter input{
+    font-size: 18px;
+    display: block;
+    width: 600px;
+    margin: 0 auto;
+    padding: 7px;
+}
