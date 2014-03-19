@@ -13,6 +13,7 @@ $view = new View();
 $view->setLayout('user/layout.php');
 $view->setView('user/index.php');
 $view->loadCss('public/css/user/home.css');
+$view->loadJs('public/js/jquery.uitablefilter.js');
 $view->loadJs('public/js/user/home.js');
 $view->setData('title', 'Home Page');
 $view->setData('headline', 'Home');

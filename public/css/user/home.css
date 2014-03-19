@@ -20,3 +20,16 @@
     width: 120px;
     text-align: center;
 }
+
+#frmQuizFilter{
+    width: 980px;
+    margin: 10px auto;
+}
+
+#frmQuizFilter input{
+    font-size: 18px;
+    display: block;
+    width: 600px;
+    margin: 0 auto;
+    padding: 7px;
+}
