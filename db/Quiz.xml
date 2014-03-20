@@ -37,7 +37,7 @@
             </questions>
         </quiz>
 
-        <quiz quizID="2" staffID="2" is_closed="1">
+        <quiz quizID="2" staffID="2" is_closed="0">
             <descriptionQuiz>English Quiz 1</descriptionQuiz>
             <time>60</time>
             <questions>
@@ -129,7 +129,7 @@
             </questions>
         </quiz>
 
-        <quiz quizID="3" staffID="3" is_closed="">
+        <quiz quizID="3" staffID="3" is_closed="0">
             <descriptionQuiz>English Quiz 2</descriptionQuiz>
             <time>60</time>
             <questions>
@@ -221,7 +221,7 @@
             </questions>
         </quiz>
 
-        <quiz quizID="4" staffID="5" is_closed="1">
+        <quiz quizID="4" staffID="5" is_closed="0">
             <descriptionQuiz>English Quiz 3</descriptionQuiz>
             <time>60</time>
             <questions>
@@ -313,7 +313,7 @@
             </questions>
         </quiz>
 
-        <quiz quizID="5" staffID="9" is_closed="1">
+        <quiz quizID="5" staffID="9" is_closed="0">
             <descriptionQuiz>Vocabulary Quiz 1</descriptionQuiz>
             <time>60</time>
             <questions>
@@ -405,7 +405,7 @@
             </questions>
         </quiz>
 
-        <quiz quizID="6" staffID="11" is_closed="1">
+        <quiz quizID="6" staffID="11" is_closed="0">
             <descriptionQuiz>Vocabulary Quiz 2</descriptionQuiz>
             <time>60</time>
             <questions>
@@ -589,7 +589,7 @@
             </questions>
         </quiz>
 
-        <quiz quizID="8" staffID="14" is_closed="">
+        <quiz quizID="8" staffID="14" is_closed="0">
             <descriptionQuiz>Grammar Quiz 1</descriptionQuiz>
             <time>60</time>
             <questions>
@@ -681,7 +681,7 @@
             </questions>
         </quiz>
 
-        <quiz quizID="9" staffID="16" is_closed="1">
+        <quiz quizID="9" staffID="16" is_closed="0">
             <descriptionQuiz>Grammar Quiz 2</descriptionQuiz>
             <time>60</time>
             <questions>
@@ -773,7 +773,7 @@
             </questions>
         </quiz>
 
-        <quiz quizID="10" staffID="17" is_closed="1">
+        <quiz quizID="10" staffID="17" is_closed="0">
             <descriptionQuiz>Basic Computer Skills Quiz 1</descriptionQuiz>
             <time>15</time>
             <questions>
@@ -957,7 +957,7 @@
             </questions>
         </quiz>
 
-        <quiz quizID="12" staffID="15" is_closed="1">
+        <quiz quizID="12" staffID="15" is_closed="0">
             <descriptionQuiz>Basic Computer Skills Quiz 3</descriptionQuiz>
             <time>15</time>
             <questions>
@@ -1049,7 +1049,7 @@
             </questions>
         </quiz>
 
-        <quiz quizID="13" staffID="19" is_closed="">
+        <quiz quizID="13" staffID="19" is_closed="1">
             <descriptionQuiz>Basic Web Quiz 1</descriptionQuiz>
             <time>15</time>
             <questions>
@@ -1141,7 +1141,7 @@
             </questions>
         </quiz>
 
-        <quiz quizID="14" staffID="20" is_closed="">
+        <quiz quizID="14" staffID="20" is_closed="1">
             <descriptionQuiz>Basic Web Quiz 2</descriptionQuiz>
             <time>15</time>
             <questions>

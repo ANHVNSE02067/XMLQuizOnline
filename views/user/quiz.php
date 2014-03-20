@@ -7,10 +7,10 @@
 <form id="questions" method="POST" action="quiz_result.php">
 <input type="hidden" name="quizId" value="<?php echo $quiz->getQuizID(); ?>">
 <?php $questions = $quiz->getQuestions();
-for ($i = 1; $i < count($questions); $i++) { ?>
+for ($i = 0; $i < count($questions); $i++) { ?>
 <table id="ques<?php echo $questions[$i]->getQuestionID(); ?>" class="question" border="1">
 <tr class="ques-desc">
-<th colspan="3"><strong>Question <?php echo $i; ?>:</strong> <?php echo $questions[$i]->getDescriptionQuestion(); ?></th>
+<th colspan="3"><strong>Question <?php echo $i+1; ?>:</strong> <?php echo $questions[$i]->getDescriptionQuestion(); ?></th>
 </tr>
 <?php $choices = $questions[$i]->getChoices(); 
 for($j = 0; $j < count($choices); $j++) { ?>

@@ -51,7 +51,7 @@ try {
     $report = new Report();
     $report->setQuizID($quiz->getQuizID());
     $report->setUserID(Auth::getUserAuthIdentity()->getUserId());
-    $report->setResult(sprintf('%.1f', $correct*1.0/$total));
+    $report->setResult(sprintf('%.1f', $correct*10.0/$total));
     loadModel('ReportModel.php');
     $reportModel = new ReportModel();
     $reportModel->addReport($report);

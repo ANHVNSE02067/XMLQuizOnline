@@ -35,7 +35,7 @@ class Model {
 function loadModel($model){
     $model = MODEL_PATH.DIRECTORY_SEPARATOR.$model;
     if(file_exists($model)){
-        require $model;
+        require_once $model;
     }else{
         throw new Exception('Cannot load '.$model);
     }
