@@ -82,6 +82,22 @@ class ReportModel extends Model {
         $this->save();
     }
 
+    public function deleteReportByUserId($userID) 
+    {
+        $xpath = $this->getXpath();
+        $query = "//report[@userID='$userID']";
+        $elements = $xpath->query($query);
+        if ($elements->length == 0) {
+            return false;
+        }
+        $parent = $elements->item(0)->parentNode;
+        foreach ($elements as $element) {
+            $parent->removeChild($element);
+        }
+
+        return $this->save();
+    }
+
     public function getMaxReportID()
     {
         $xpath = $this->getXpath();

@@ -101,7 +101,11 @@ class UserModel extends Model{
         }
         $element = $elements->item(0);
         $element->parentNode->removeChild($element);
-        $this->save();
+        // Also delete report of this user
+        loadModel('ReportModel.php');
+        $reportModel = new ReportModel();
+        $reportModel->deleteReportByUserId($userID);
+        return $this->save();
     }
 
     public function getMaxUserID()
