@@ -7,6 +7,15 @@ if (!Auth::isStaffAuth()) {
 // Get list staffs
 loadModel('StaffModel.php');
 $staffModel = new StaffModel();
+
+// Delete Staff
+if (Request::get('delete_staff')) {
+    $staffId = Request::get('staff_id');
+    if ($staffId && $staffId != Auth::getStaffAuthIdentity()) {
+        $staffModel->deleteUserById($staffId);
+    }
+}
+
 $staffs = $staffModel->getAllStaffs();
 
 // Render View

@@ -33,3 +33,7 @@
         </tfoot>
     </tbody>
 </table>
+<form id="frmDeleteStaff" method="post" style="display: none">
+<input type="hidden" name="staff_id" value="">
+<input type="hidden" name="delete_staff" value="delete_staff">
+</form>

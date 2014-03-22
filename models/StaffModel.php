@@ -90,6 +90,20 @@ class StaffModel extends Model{
         return $this->save();
     }
 
+    public function deleteUserById($staffID)
+    {
+        $xpath = $this->getXpath();
+        $userID = intval($userID);
+        $query = "//staff[@staffID='{$staffID}']";
+        $elements = $xpath->query($query);
+        if ($elements->length == 0) {
+            return false;
+        }
+        $element = $elements->item(0);
+        $element->parentNode->removeChild($element);
+        return $this->save();
+    }
+
     public function getMaxStaffID()
     {
         $xpath = $this->getXpath();
