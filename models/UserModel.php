@@ -90,6 +90,20 @@ class UserModel extends Model{
         return $this->save();
     }
 
+    public function deleteUserById($userID)
+    {
+        $xpath = $this->getXpath();
+        $userID = intval($userID);
+        $query = "//user[@userID='{$userID}']";
+        $elements = $xpath->query($query);
+        if ($elements->length == 0) {
+            return false;
+        }
+        $element = $elements->item(0);
+        $element->parentNode->removeChild($element);
+        $this->save();
+    }
+
     public function getMaxUserID()
     {
         $xpath = $this->getXpath();

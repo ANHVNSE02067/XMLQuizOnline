@@ -9,3 +9,4 @@ require 'helpers'.DIRECTORY_SEPARATOR.'View.php';
 require 'models'.DIRECTORY_SEPARATOR.'Model.php';
 require 'helpers'.DIRECTORY_SEPARATOR.'Auth.php';
 require 'helpers'.DIRECTORY_SEPARATOR.'Session.php';
+require 'helpers'.DIRECTORY_SEPARATOR.'Uploader.php';

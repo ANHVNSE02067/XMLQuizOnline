@@ -8,5 +8,8 @@
     <report reportID="2" quizID="8" userID="2">
       <result>2.0</result>
     </report>
+    <report reportID="3" quizID="8" userID="3">
+      <result>2.0</result>
+    </report>
   </reports>
 </QuizOnline>

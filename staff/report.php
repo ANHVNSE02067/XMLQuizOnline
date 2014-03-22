@@ -1,8 +1,7 @@
 <?php
 require '../global.php';
-
-if (!Auth::isUserAuth()) {
-    Auth::redirectToUserLoginPage ();
+if (!Auth::isStaffAuth()) {
+    Auth::redirectToStaffLoginPage ();
 }
 try {
     $quizId = Request::get('quizId', null);

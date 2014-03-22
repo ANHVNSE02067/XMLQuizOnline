@@ -19,8 +19,8 @@
         <td class="col-name"><?php echo $user->getFullname(); ?></td>
         <td class="col-email"><?php echo $user->getEmail(); ?></td>
             <td class="col-action">
-                <button type="button" class="btn-edit">Edit</button>
-                <button type="button" class="btn-delete">Delete</button>
+            <button type="button" class="btn-edit" onclick="editUser('<?php echo intval($user->getUserID()); ?>')">Edit</button>
+            <button type="button" class="btn-delete" onclick="deleteUser('<?php echo $user->getUserID(); ?>')">Delete</button>
             </td>
             </tr>
 <?php } ?>
@@ -33,3 +33,8 @@
         </tfoot>
     </tbody>
 </table>
+
+<form id="frmDeleteUser" method="post" style="display: none">
+<input type="hidden" name="user_id" value="">
+<input type="hidden" name="delete_user" value="delete_user">
+</form>

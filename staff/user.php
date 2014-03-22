@@ -6,6 +6,16 @@ if (!Auth::isStaffAuth()) {
 // Get list users
 loadModel('UserModel.php');
 $userModel = new UserModel();
+
+// Delete User
+if (Request::get('delete_user')) {
+    $userId = Request::get('user_id');
+    if ($userId) {
+        $userModel->deleteUserById($userId);
+    }
+}
+
+
 $users = $userModel->getAllUsers();
 // Render View
 $view = new View();

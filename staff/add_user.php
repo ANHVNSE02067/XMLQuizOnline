@@ -1,5 +1,8 @@
 <?php
 require '../global.php';
+if (!Auth::isStaffAuth()) {
+    Auth::redirectToStaffLoginPage ();
+}
 if (isset($_POST['addUser'])) {
     try {
         $email = trim(Request::get('email', null));

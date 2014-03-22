@@ -30,8 +30,8 @@
 <?php } ?>
         <tfoot>
             <tr>
-                <td colspan="5">
-                    <button type="button" id="btnAddStaff" onclick="document.location.href='add_quiz.php'">Add Quiz</button>
+                <td colspan="6">
+                    <button type="button" id="btnAddQuiz" onclick="document.location.href='add_quiz.php'">Add Quiz</button>
                 </td>
             </tr>
         </tfoot>
