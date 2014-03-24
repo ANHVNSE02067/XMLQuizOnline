@@ -2,40 +2,6 @@
 <QuizOnline>
   <!-- Quizes -->
   <quizes>
-    <quiz quizID="1" staffID="1" is_closed="1">
-      <descriptionQuiz>Demo quiz</descriptionQuiz>
-      <time>60</time>
-      <questions>
-        <question questionID="1">
-          <descriptionQuestion>What is your nane?</descriptionQuestion>
-          <choices>
-            <choice correct="0">
-              <descriptionChoice>Tran Trung Hieu</descriptionChoice>
-            </choice>
-            <choice correct="1">
-              <descriptionChoice>Vu Nhat Anh</descriptionChoice>
-            </choice>
-            <choice correct="0">
-              <descriptionChoice>Vo Tuan Trung</descriptionChoice>
-            </choice>
-          </choices>
-        </question>
-        <question questionID="2">
-          <descriptionQuestion>If she ___________ about his financial situation, she would have helped him out.</descriptionQuestion>
-          <choices>
-            <choice correct="0">
-              <descriptionChoice>knew</descriptionChoice>
-            </choice>
-            <choice correct="1">
-              <descriptionChoice>has been knowing</descriptionChoice>
-            </choice>
-            <choice correct="0">
-              <descriptionChoice>had known</descriptionChoice>
-            </choice>
-          </choices>
-        </question>
-      </questions>
-    </quiz>
     <quiz quizID="2" staffID="2" is_closed="0">
       <descriptionQuiz>English Quiz 1</descriptionQuiz>
       <time>60</time>
@@ -1222,6 +1188,11 @@
     <quiz quizID="15" staffID="1" is_closed="1">
       <descriptionQuiz>Hello World 2</descriptionQuiz>
       <time>15</time>
+      <questions/>
+    </quiz>
+    <quiz quizID="16" staffID="1" is_closed="0">
+      <descriptionQuiz>Demo quiz Hello</descriptionQuiz>
+      <time>45</time>
       <questions/>
     </quiz>
   </quizes>

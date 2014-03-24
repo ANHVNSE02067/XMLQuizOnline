@@ -37,3 +37,7 @@
         </tfoot>
     </tbody>
 </table>
+<form id="frmDeleteQuiz" method="post" style="display: none">
+<input type="hidden" name="quiz_id" value="">
+<input type="hidden" name="delete_quiz" value="quiz_user">
+</form>
