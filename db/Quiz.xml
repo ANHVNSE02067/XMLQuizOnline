@@ -1219,11 +1219,7 @@
         </question>
       </questions>
     </quiz>
-    <quiz quizID="15" staffID="1" is_closed="0">
-      <descriptionQuiz>Hello World</descriptionQuiz>
-      <questions/>
-    </quiz>
-    <quiz quizID="16" staffID="1" is_closed="1">
+    <quiz quizID="15" staffID="1" is_closed="1">
       <descriptionQuiz>Hello World 2</descriptionQuiz>
       <time>15</time>
       <questions/>
