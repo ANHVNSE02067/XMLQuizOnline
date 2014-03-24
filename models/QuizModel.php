@@ -108,5 +108,79 @@ class QuizModel extends Model
         }
         return $choices;
     }
+
+    public function addBlankQuiz($quiz)
+    {
+        $quizId = $this->generateID();
+        $quiz->setQuizID($quizId);
+        $dom = $this->getDom();
+        $quizNode = $dom->createElement('quiz');
+        // QuizID
+        $quizIDAttribute = $dom->createAttribute('quizID');
+        $quizIDAttribute->value = $quiz->getQuizID();
+        $quizNode->appendChild($quizIDAttribute);
+        // StaffID
+        $staffIDAttribute = $dom->createAttribute('staffID');
+        $staffIDAttribute->value = $quiz->getStaffID();
+        $quizNode->appendChild($staffIDAttribute);
+        // is_closed
+        $isClosedAttribute = $dom->createAttribute('is_closed');
+        $isClosedAttribute->value = $quiz->getIsClosed();
+        $quizNode->appendChild($isClosedAttribute);
+        // descriptionQuizNode
+        $descriptionQuizNode = $dom->createElement('descriptionQuiz');
+        $descriptionQuizNode->appendChild($dom->createTextNode($quiz->getDescriptionQuiz()));
+        $quizNode->appendChild($descriptionQuizNode);
+        // timeNode
+        $timeNode = $dom->createElement('time');
+        $timeNode->appendChild($dom->createTextNode($quiz->getTime()));
+        $quizNode->appendChild($timeNode);
+        // questionsNode
+        $questionsNode = $dom->createElement('questions');
+        $quizNode->appendChild($questionsNode);
+        // Add new node
+        $dom->getElementsByTagName('quizes')
+            ->item(0)
+            ->appendChild($quizNode);
+        if ($this->save()) {
+            return $quiz->getQuizID();
+        }
+        return false;
+    }
+
+    public function deleteQuizByID($quizID)
+    {
+        $xpath = $this->getXpath();
+        $quizID = intval($quizID);
+        $query = "//quiz[@quizID='{$quizID}']";
+        $elements = $xpath->query($query);
+        if ($elements->length == 0) {
+            return false;
+        }
+        $element = $elements->item(0);
+        $element->parentNode->removeChild($element);
+        // Also delete report of this quiz
+        loadModel('ReportModel.php');
+        $reportModel = new ReportModel();
+        $reportModel->deleteReportByQuizId($quizID);
+        return $this->save();
+    }
+
+    public function getMaxQuizID()
+    {
+        $xpath = $this->getXpath();
+        $query = "//quiz[not(//quiz/@quizID > @quizID)]/@quizID";
+        $elements = $xpath->query($query);
+        if ($elements->length == 0) {
+            return 0;
+        }
+        $quizID = $elements->item(0)->value;
+        return $quizID;
+    }
+    public function generateID()
+    {
+        $maxID = $this->getMaxQuizID();
+        return $maxID + 1;
+    }
 }
 

@@ -98,6 +98,22 @@ class ReportModel extends Model {
         return $this->save();
     }
 
+    public function deleteReportByQuizId($quizID) 
+    {
+        $xpath = $this->getXpath();
+        $query = "//report[@quizID='$quizID']";
+        $elements = $xpath->query($query);
+        if ($elements->length == 0) {
+            return false;
+        }
+        $parent = $elements->item(0)->parentNode;
+        foreach ($elements as $element) {
+            $parent->removeChild($element);
+        }
+
+        return $this->save();
+    }
+
     public function getMaxReportID()
     {
         $xpath = $this->getXpath();

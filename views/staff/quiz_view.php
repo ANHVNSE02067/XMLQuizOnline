@@ -24,7 +24,7 @@
         <td><?php echo ($quiz->getIsClosed() == QUIZ_CLOSED)?"Closed":"Opening" ?></td>
             <td class="col-action">
                 <button type="button" class="btn-edit">Edit</button>
-                <button type="button" class="btn-delete">Delete</button>
+                <button type="button" class="btn-delete" onclick="deleteQuiz('<?php echo $quiz->getQuizID(); ?>')">Delete</button>
             </td>
             </tr>
 <?php } ?>

@@ -55,7 +55,7 @@ if (isset($_POST['addUser'])) {
 } else {
     // Render register view
     $view = new View();
-    $view->setLayout('user/layout.php');
+    $view->setLayout('staff/layout.php');
     $view->setView('staff/adduser_view.php');
     $view->loadCss('public/css/staff/adduser.css');
     $view->setData('title', 'Add User');

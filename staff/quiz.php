@@ -6,6 +6,16 @@ if (!Auth::isStaffAuth()) {
 
 loadModel('QuizModel.php');
 $quizModel = new QuizModel();
+
+// Delete Staff
+if (Request::get('delete_quiz')) {
+    $quizId = Request::get('quiz_id', null);
+    if (null !== $quizId) {
+        $quizModel->deleteQuizById($quizId);
+    }
+}
+
+$staffs = $staffModel->getAllStaffs();
 $quizzes = $quizModel->getQuizList();
 
 $view = new View();
