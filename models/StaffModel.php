@@ -93,7 +93,7 @@ class StaffModel extends Model{
     public function deleteUserById($staffID)
     {
         $xpath = $this->getXpath();
-        $userID = intval($userID);
+        $staffID = intval($staffID);
         $query = "//staff[@staffID='{$staffID}']";
         $elements = $xpath->query($query);
         if ($elements->length == 0) {

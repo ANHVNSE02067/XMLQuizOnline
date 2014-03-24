@@ -20,7 +20,7 @@
         <td class="col-email"><?php echo $staff->getEmail(); ?></td>
             <td class="col-action">
                 <button type="button" class="btn-edit">Edit</button>
-                <button type="button" class="btn-delete">Delete</button>
+                <button type="button" class="btn-delete" onclick="deleteStaff('<?php echo $staff->getStaffID(); ?>')">Delete</button>
             </td>
             </tr>
 <?php } ?>
@@ -33,6 +33,7 @@
         </tfoot>
     </tbody>
 </table>
+<input type="hidden" id="authStaffId" value="<?php echo Auth::getStaffAuthIdentity()->getUserId(); ?>">
 <form id="frmDeleteStaff" method="post" style="display: none">
 <input type="hidden" name="staff_id" value="">
 <input type="hidden" name="delete_staff" value="delete_staff">
