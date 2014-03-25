@@ -3,7 +3,7 @@
   <!-- Quizes -->
   <quizes>
     <quiz quizID="2" staffID="2" is_closed="0">
-      <descriptionQuiz>English Quiz 1</descriptionQuiz>
+      <descriptionQuiz>English Quiz 1 Huhu</descriptionQuiz>
       <time>60</time>
       <questions>
         <question questionID="3">
@@ -1191,8 +1191,8 @@
       <questions/>
     </quiz>
     <quiz quizID="16" staffID="1" is_closed="0">
-      <descriptionQuiz>Demo quiz Hello</descriptionQuiz>
-      <time>45</time>
+      <descriptionQuiz>Demo quiz Hello Z</descriptionQuiz>
+      <time>46</time>
       <questions/>
     </quiz>
   </quizes>

@@ -166,6 +166,21 @@ class QuizModel extends Model
         return $this->save();
     }
 
+    public function updateQuiz($quiz)
+    {
+        $xpath = $this->getXpath();
+        $query = "//quiz[@quizID='{$quiz->getQuizID()}']";
+        $elements = $xpath->query($query);
+        if ($elements->length == 0) {
+            return false;
+        }
+        $element = $elements->item(0);
+        $element->getElementsByTagName('descriptionQuiz')->item(0)->nodeValue  = $quiz->getDescriptionQuiz();
+        $element->getElementsByTagName('time')->item(0)->nodeValue  = $quiz->getTime();
+        $element->setAttribute('is_closed', $quiz->getIsClosed());
+        return $this->save();
+    }
+
     public function getMaxQuizID()
     {
         $xpath = $this->getXpath();

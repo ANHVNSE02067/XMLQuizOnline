@@ -20,3 +20,31 @@
         <input id="editQuiz" type="submit" name="editQuiz" value="Edit Quiz">
     </div>
 </form>
+<a class="btn-big" href="add_question?quizId=<?php echo $quiz->getQuizID(); ?>">Add Question</a>
+<table id="listQuestino" class="table-list" border="1">
+    <thead>
+        <tr>
+            <th>Question ID</th>
+            <th>Description</th>
+            <th>Choices</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+<?php foreach($quiz->getQuestions() as $question) { ?>
+        <tr>
+            <td><?php echo $question->getQuestionID(); ;?></td>
+            <td><?php echo $question->getDescriptionQuestion(); ;?></td>
+            <td><?php foreach($question->getChoices() as $key => $choice) {
+                echo '['.$key.'] ' . $choice->getDescriptionChoice() . '<br>';
+            }
+?></td>
+            <td class="col-action">
+            <button type="button" class="btn-edit" onclick="document.location.href='edit_question.php?quizId=<?php echo $quiz->getQuizID(); ?>&questionId=<?php echo $question->getQuestionID(); ?>'">Edit</button>
+            <button type="button" class="btn-delete" onclick="deleteQuestion('<?php echo $quiz->getQuizID(); ?>', '<?php echo $question->getQuestionID(); ?>')">Delete</button>
+            </td>
+        </tr>
+<?php } ?>
+    </tbody>
+</table>
+
