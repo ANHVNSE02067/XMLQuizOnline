@@ -1,0 +1,41 @@
+#frmEditQuiz{
+    width: 600px;
+    margin: 0 auto;
+    font-size: 18px;
+    background-color: #95CAAA;
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border: 1px solid #ccc;
+}
+#frmEditQuiz > div{
+    margin: 10px;
+}
+#frmEditQuiz label{
+    width: 90px;
+    display: inline-block;
+    cursor: pointer;
+}
+#frmEditQuiz input{
+    font-size: 18px;
+    padding: 5px;
+    display: inline-block;
+}
+#frmEditQuiz input[type=password],
+#frmEditQuiz input[type=text]{
+    width: 450px;
+}
+#frmEditQuiz input#time{
+    width: 100px;
+}
+#frmEditQuiz input[type=submit]{
+    padding: 10px;
+    cursor: pointer;
+}
+
+#frmEditQuiz select,
+#frmEditQuiz option{
+    font-size: 18px;
+}

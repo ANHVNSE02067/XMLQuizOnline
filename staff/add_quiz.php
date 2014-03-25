@@ -21,7 +21,7 @@ if (isset($_POST['addQuiz'])) {
             throw new Exception('You must specify status!');
         }
 
-        // Load UserModel
+        // Load QuizModel
         loadModel('QuizModel.php');
         $quizModel = new QuizModel();
 
@@ -43,11 +43,11 @@ if (isset($_POST['addQuiz'])) {
         $view->render();
     }
 } else {
-    // Render register view
+    // Render Add blank quiz view
     $view = new View();
     $view->setLayout('staff/layout.php');
     $view->setView('staff/addquiz_view.php');
     $view->loadCss('public/css/staff/addquiz.css');
-    $view->setData('title', 'Add User');
+    $view->setData('title', 'Add Quiz');
     $view->render();
 }
